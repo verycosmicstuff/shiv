@@ -1,0 +1,2186 @@
+{
+  "realm_1_dawn_hills": {
+    "id": "realm_1_dawn_hills",
+    "name": "The Dawn Hills of Batala (ਸਵੇਰ ਦੀਆਂ ਪਹਾੜੀਆਂ)",
+    "climate": "Serene Sunrise, Dew-drenched green grass, soft morning mist, light golden horizon",
+    "atmosphereTone": "Quiet nostalgia, innocence before exile, gentle bicycle cadence, birds chirping",
+    "gameplayActivity": "Cycling along undulating dirt paths, recording morning songbirds, finding stone markers",
+    "sketchSubject": "Charcoal outlines of an abandoned bicycle, wild jasmine blossoms (chamba), and rolling green knolls",
+    "historicalThemes": [
+      "Childhood in undivided Punjab",
+      "Flight across Ravi during 1947 Partition",
+      "Refusal to become a village revenue clerk (patwari)"
+    ],
+    "poems": [
+      {
+        "id": "lajwantiye",
+        "titleGurmukhi": "ਲਾਜਵੰਤੀਏ (ਨੀ ਲਾਜਵੰਤੀਏ)",
+        "titleRoman": "Lajwantiye (Ni Lajwantiye)",
+        "titleEnglish": "O Sensitive Mimosa Plant",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch of a delicate mimosa leaf drooping bashfully at the touch of a single falling dewdrop."
+      },
+      {
+        "id": "kise-da-vi-phull",
+        "titleGurmukhi": "ਕਿਸੇ ਦਾ ਵੀ ਫੁੱਲ ਨਾ ਤੋੜੋ",
+        "titleRoman": "Kise Da Vi Phull Na Toro",
+        "titleEnglish": "Pluck Not the Blossom of Any Soul",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a hand poised above a dew-kissed rosebud, hesitating to sever the stem."
+      },
+      {
+        "id": "chamba-khidheya",
+        "titleGurmukhi": "ਚੰਬਾ ਖਿੜਿਆ",
+        "titleRoman": "Chamba Khidheya",
+        "titleEnglish": "The White Jasmine has Blossomed",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of white jasmine vines climbing across an old brick wall in soft morning light."
+      },
+      {
+        "id": "jogi-aaya-duaare",
+        "titleGurmukhi": "ਜੋਗੀ ਆਇਆ ਦੁਆਰੇ",
+        "titleRoman": "Jogi Aaya Duaare",
+        "titleEnglish": "The Wandering Ascetic at the Threshold",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ascetic with pierced ears and wooden staff standing before a carved village doorway in early dawn."
+      },
+      {
+        "id": "sukka-rukkh",
+        "titleGurmukhi": "ਸੁੱਕਾ ਰੁੱਖ",
+        "titleRoman": "Sukka Rukkh",
+        "titleEnglish": "The Withered Tree of the Barren Field",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a bare, twisted tree trunk silhouetted against a pale twilight horizon."
+      },
+      {
+        "id": "soorma-nainan-da",
+        "titleGurmukhi": "ਸੂਰਮਾ ਨੈਣਾਂ ਦਾ",
+        "titleRoman": "Soorma Nainan Da",
+        "titleEnglish": "The Kohl Lining Her Weeping Eyes",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a teardrop washing away black kohl down a maiden's cheek."
+      },
+      {
+        "id": "mitti-da-bawa",
+        "titleGurmukhi": "ਮਿੱਟੀ ਦਾ ਬਾਵਾ",
+        "titleRoman": "Mitti Da Bawa",
+        "titleEnglish": "The Clay Idol That Will Not Speak",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a village mother cradling an inanimate earthen clay doll beside an unlit chulha."
+      },
+      {
+        "id": "geet-meria-ve",
+        "titleGurmukhi": "ਗੀਤ ਮੇਰਿਆ ਵੇ",
+        "titleRoman": "Geet Meria Ve",
+        "titleEnglish": "O My Song, Fly to Her Courtyard",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an open wooden window overlooking flying swallows heading towards distant village rooftops."
+      },
+      {
+        "id": "dukh-paradesan",
+        "titleGurmukhi": "ਦੁੱਖ ਪ੍ਰਦੇਸਾਂ ਦੇ",
+        "titleRoman": "Dukh Paradesan De",
+        "titleEnglish": "The Sorrows of Homeless Exile",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary traveler with a walking stick gazing down from a high mountain ridge onto an unfamiliar valley."
+      },
+      {
+        "id": "chambe-di-booti",
+        "titleGurmukhi": "ਚੰਬੇ ਦੀ ਬੂਟੀ",
+        "titleRoman": "Chambe Di Booti",
+        "titleEnglish": "Jasmine Plant in My Breast",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of delicate white jasmine flowers blossoming directly out of a human ribcage."
+      },
+      {
+        "id": "kothe-te-kanka",
+        "titleGurmukhi": "ਕੋਠੇ ਤੇ ਕਣਕਾਂ",
+        "titleRoman": "Kothe Te Kankan",
+        "titleEnglish": "Wheat Drying on the Mud Rooftop",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of golden grain spread out on a mud-plastered terrace under a pale sun with pigeons fluttering nearby."
+      },
+      {
+        "id": "shokh-husan",
+        "titleGurmukhi": "ਸ਼ੋਖ਼ ਹੁਸਨ",
+        "titleRoman": "Shokh Husan",
+        "titleEnglish": "Restless Beauty Fleeting Away",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a veil slipping off a shoulder in the wind with autumn leaves scattering around."
+      },
+      {
+        "id": "nain-tarasde",
+        "titleGurmukhi": "ਨੈਣ ਤਰਸਦੇ",
+        "titleRoman": "Nain Tarasde",
+        "titleEnglish": "Eyes Starving for a Single Glimpse",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of wide, sorrowful eyes rimmed with dried kohl gazing through a lattice window."
+      },
+      {
+        "id": "pinjra-te-panchhi",
+        "titleGurmukhi": "ਪਿੰਜਰਾ ਤੇ ਪੰਛੀ",
+        "titleRoman": "Pinjra Te Panchhi",
+        "titleEnglish": "The Caged Sparrow",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a small brass cage with open door resting upon a windowsill while the bird inside refuses to fly."
+      },
+      {
+        "id": "sohne-rang-da-geet",
+        "titleGurmukhi": "ਸੋਹਣੇ ਰੰਗ ਦਾ ਗੀਤ",
+        "titleRoman": "Sohne Rang Da Geet",
+        "titleEnglish": "Song of Beautiful Hues",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an acoustic wooden sarangi lying beside an inkpot with spilt black ink."
+      },
+      {
+        "id": "kujh-kadam-hor",
+        "titleGurmukhi": "ਕੁਝ ਕਦਮ ਹੋਰ",
+        "titleRoman": "Kujh Kadam Hor",
+        "titleEnglish": "A Few Steps More",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of footprints trailing off into a misty mountain trail where the road disappears into white fog."
+      },
+      {
+        "id": "kujh-rukh",
+        "titleGurmukhi": "ਕੁਝ ਰੁੱਖ (ਰੁੱਖਾਂ ਦੀ ਕਵਿਤਾ)",
+        "titleRoman": "Kujh Rukh (Rukh)",
+        "titleEnglish": "Some Trees: The Tree Elegies",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ancient banyan tree with wide spreading branches and tangled hanging roots sheltering young saplings."
+      },
+      {
+        "id": "rukh-te-parinda",
+        "titleGurmukhi": "ਰੁੱਖ ਤੇ ਪਰਿੰਦਾ",
+        "titleRoman": "Rukh Te Parinda",
+        "titleEnglish": "The Tree and the Dying Bird",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a small bird perched motionless upon an ancient gnarly tree branch as the sun sets."
+      },
+      {
+        "id": "kore-pind-di-kudi",
+        "titleGurmukhi": "ਕੋਰੇ ਪਿੰਡ ਦੀ ਕੁੜੀ",
+        "titleRoman": "Kore Pind Di Kudi",
+        "titleEnglish": "The Maiden of the Pristine Village",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a young village girl carrying a brass water pitcher on her head through green mustard fields."
+      },
+      {
+        "id": "kir-mangyal-di-bhor",
+        "titleGurmukhi": "ਕਿਰਮਚੀ ਭੋਰ",
+        "titleRoman": "Kirmachi Bhor",
+        "titleEnglish": "The Crimson Dawn at Kir Mangyal: The Final Morning",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Watercolor of an unpaved village courtyard at dawn with brick walls, an abandoned charpai, and low morning mist drifting over green fields."
+      },
+      {
+        "id": "kaun-sunega",
+        "titleGurmukhi": "ਕੌਣ ਸੁਣੇਗਾ",
+        "titleRoman": "Kaun Sunega",
+        "titleEnglish": "Who Will Listen: The Unheard Cry in the Wilderness",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Ink drawing of a windblown barren steppe where withered grasses sway under a vast, empty grey sky."
+      },
+      {
+        "id": "tutte-tamboore",
+        "titleGurmukhi": "ਟੁੱਟੇ ਤੰਬੂਰੇ",
+        "titleRoman": "Tutte Tamboore",
+        "titleEnglish": "The Broken Tanpura: Snapped Strings of Melody",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Drawing of a wooden acoustic drone instrument lying sideways on an earthen floor with snapped copper strings curling outward in the shadows."
+      },
+      {
+        "id": "shama-da-dhuan",
+        "titleGurmukhi": "ਸ਼ਮ੍ਹਾ ਦਾ ਧੂੰਆਂ",
+        "titleRoman": "Shama Da Dhuan",
+        "titleEnglish": "The Smoke of the Candle: Tracing the Fading Soul",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Delicate pencil rendering of a candle wick whose flame has just snapped out, a thin spiral of grey smoke rising and dispersing into empty space."
+      },
+      {
+        "id": "hanjhu-di-akhiri-boond",
+        "titleGurmukhi": "ਹੰਝੂ ਦੀ ਆਖ਼ਰੀ ਬੂੰਦ",
+        "titleRoman": "Hanjhu Di Akhiri Boond",
+        "titleEnglish": "The Final Drop of Tear: When Weeping Ceases",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Macro charcoal sketch of a closed, sunken eye with eyelashes wet from one solitary dried tear trail on a weathered cheek."
+      }
+    ]
+  },
+  "realm_2_monsoon_river": {
+    "id": "realm_2_monsoon_river",
+    "name": "The River Chenab & Village Trinjan (ਝਨਾਬ ਤੇ ਤ੍ਰਿੰਞਣ)",
+    "climate": "Warm monsoon rain, rushing silted riverwaters, overcast silver clouds, dripping willows",
+    "atmosphereTone": "Sensual melancholy, agrarian community, the rhythm of spinning wheels and clay pots",
+    "gameplayActivity": "Walking alongside riverbanks, recording the rush of water and the creak of wooden water-wheels",
+    "sketchSubject": "Charcoal drawings of dough sparrows dissolving in the rain, broken glass bangles, clay dolls (mitti da bawa)",
+    "historicalThemes": [
+      "The influence of classical Sufi poetry (Waris Shah, Bulleh Shah)",
+      "Agrarian metaphors of kilns, ovens, and seasonal harvests"
+    ],
+    "poems": [
+      {
+        "id": "bhatthi-waliye",
+        "titleGurmukhi": "ਪੀੜਾਂ ਦਾ ਪਰਾਗਾ ਭੁੰਨ ਦੇ ਭੱਠੀ ਵਾਲੀਏ",
+        "titleRoman": "Piran Da Paraga Bhunn De Bhatthi Waliye",
+        "titleEnglish": "Roast My Batch of Sorrows, O Maiden of the Kiln",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch of a village mud kiln with glowing red embers and a solitary roaster woman stirring parched grain."
+      },
+      {
+        "id": "kee-puchhde-o-haal",
+        "titleGurmukhi": "ਕੀ ਪੁੱਛਦੇ ਓ ਹਾਲ ਫ਼ਕੀਰਾਂ ਦਾ",
+        "titleRoman": "Kee Puchhde O Haal Fakiran Da",
+        "titleEnglish": "Why Inquire into the Condition of Wandering Mendicants?",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal outline of a barefoot mendicant carrying an unstrung instrument, vanishing into morning mist."
+      },
+      {
+        "id": "geet-dosto-mera",
+        "titleGurmukhi": "ਇੱਕ ਗੀਤ ਦੋਸਤੋ ਮੈਂ ਗਾਉਣ ਲੱਗਾ ਹਾਂ",
+        "titleRoman": "Ikk Geet Dosto Main Gaun Lagga Haan",
+        "titleEnglish": "Friends, I Am About to Sing a Song of Tears",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a young singer with head thrown back, hands gesturing toward an all-night audience under canvas tents."
+      },
+      {
+        "id": "pind-di-kudi",
+        "titleGurmukhi": "ਪਿੰਡ ਦੀ ਇੱਕ ਕੁੜੀ",
+        "titleRoman": "Pind Di Ikk Kudi",
+        "titleEnglish": "A Maiden from the Lost Village",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a young village girl carrying an earthen water pitcher on her head, walking through flowering mustard fields."
+      },
+      {
+        "id": "chann-chadeya",
+        "titleGurmukhi": "ਚੰਨ ਚੜ੍ਹਿਆ ਕੰਧੋਲੀ ਉਹਲੇ",
+        "titleRoman": "Chann Chadheya Kandholi Ohle",
+        "titleEnglish": "The Moon Arose Behind the Mud Partition",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a full moon rising over a rustic mud wall in an unlit Punjab courtyard."
+      },
+      {
+        "id": "chamba-di-daali",
+        "titleGurmukhi": "ਚੰਬੇ ਦੀ ਡਾਲੀ",
+        "titleRoman": "Chambe Di Daali",
+        "titleEnglish": "The Branch of White Jasmine",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of delicate white jasmine blossoms dropping one by one into an open palm."
+      },
+      {
+        "id": "kankan-de-khet",
+        "titleGurmukhi": "ਕਣਕਾਂ ਦੇ ਖੇਤਾਂ ਵਿੱਚ",
+        "titleRoman": "Kankan De Khetaan Vich",
+        "titleEnglish": "Amidst the Whispering Fields of Wheat",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of golden wheat stalks bending under heavy ears of grain, swaying in the afternoon breeze."
+      },
+      {
+        "id": "parbhaat-vela",
+        "titleGurmukhi": "ਪ੍ਰਭਾਤ ਵੇਲਾ",
+        "titleRoman": "Parbhaat Vela",
+        "titleEnglish": "The Fragile Breath of Dawn",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of the first light of dawn breaking through fog over a quiet village lane."
+      },
+      {
+        "id": "rehmat-di-chaan",
+        "titleGurmukhi": "ਰਹਿਮਤ ਦੀ ਛਾਂ",
+        "titleRoman": "Rehmat Di Chhaan",
+        "titleEnglish": "The Shade of Divine Grace",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary banyan tree spreading its wide branches over a dusty pathway."
+      },
+      {
+        "id": "raat-channani",
+        "titleGurmukhi": "ਰਾਤ ਚਾਨਣੀ ਮੈਂ ਤੁਰਿਆ",
+        "titleRoman": "Raat Channani Main Turiya",
+        "titleEnglish": "I Walked Beneath the Moonlit Sky",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a lone wanderer walking down an empty village lane bathed in silver moonlight."
+      },
+      {
+        "id": "kiven-bhullan",
+        "titleGurmukhi": "ਕਿਵੇਂ ਭੁੱਲਾਂ ਮੈਂ ਆਪਣਾ ਪਿੰਡ",
+        "titleRoman": "Kiven Bhullan Main Apna Pind",
+        "titleEnglish": "How Can I Forget My Ancestral Soil?",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a mud house courtyard with an abandoned spinning wheel under an old neem tree."
+      },
+      {
+        "id": "thohar-da-phull",
+        "titleGurmukhi": "ਥੋਹਰ ਦਾ ਫੁੱਲ",
+        "titleRoman": "Thohar Da Phull",
+        "titleEnglish": "Flower of the Thorny Cactus",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary bright blossom blooming amid sharp spiky cactus needles in barren clay."
+      },
+      {
+        "id": "munda-batale-da",
+        "titleGurmukhi": "ਮੁੰਡਾ ਬਟਾਲੇ ਦਾ",
+        "titleRoman": "Munda Batale Da",
+        "titleEnglish": "The Wayward Youth of Batala",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an eccentric young man leaning against an ancient brick archway with loose kurta and disheveled hair."
+      },
+      {
+        "id": "chanan-de-hoke",
+        "titleGurmukhi": "ਚਾਨਣ ਦੇ ਹੌਕੇ",
+        "titleRoman": "Chanan De Hoke",
+        "titleEnglish": "The Deep Sighs of Morning Light",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of mist rising over fields with early morning sunbeams breaking through grey clouds."
+      },
+      {
+        "id": "dhup-di-chadar",
+        "titleGurmukhi": "ਧੁੱਪ ਦੀ ਚਾਦਰ",
+        "titleRoman": "Dhup Di Chaadar",
+        "titleEnglish": "The Sheet of Midday Sun",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a shimmering, blinding white noon over barren fields with heat haze undulating across the ground."
+      },
+      {
+        "id": "khed-muk-gayi",
+        "titleGurmukhi": "ਖੇਡ ਮੁੱਕ ਗਈ",
+        "titleRoman": "Khed Mukk Gayi",
+        "titleEnglish": "The Play of Youth Has Ended",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of overturned wooden spinning tops and broken toys lying abandoned in a dusty village street."
+      },
+      {
+        "id": "sandhya-tara",
+        "titleGurmukhi": "ਸੰਧਿਆ ਤਾਰਾ",
+        "titleRoman": "Sandhya Taara",
+        "titleEnglish": "The Evening Star of Despair",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a deep twilight sky over low horizon hills with a single brilliant silver star shining solitary above."
+      },
+      {
+        "id": "hanjhu-te-ret",
+        "titleGurmukhi": "ਹੰਝੂ ਤੇ ਰੇਤ",
+        "titleRoman": "Hanjhu Te Ret",
+        "titleEnglish": "Tears Dissolving in River Sand",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of dry cracked river mud with tear-like droplets sinking into soft grey sand."
+      },
+      {
+        "id": "tute-khilone",
+        "titleGurmukhi": "ਟੁੱਟੇ ਖਿਡੌਣੇ",
+        "titleRoman": "Tutte Khilone",
+        "titleEnglish": "Broken Toys of Memory",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of painted earthenware doll fragments scattered on an old wooden chest."
+      },
+      {
+        "id": "pehli-chithi",
+        "titleGurmukhi": "ਪਹਿਲੀ ਚਿੱਠੀ",
+        "titleRoman": "Pehli Chithi",
+        "titleEnglish": "The First Unopened Letter",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a crumpled, faded paper envelope tied with a silk ribbon resting beside a smoking candle."
+      },
+      {
+        "id": "kandh-uth-gayi",
+        "titleGurmukhi": "ਕੰਧ ਉੱਠ ਗਈ",
+        "titleRoman": "Kandh Uth Gayi",
+        "titleEnglish": "A Wall Arose Between Us",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an insurmountable high mud and brick wall cutting across a green meadow."
+      },
+      {
+        "id": "suraj-dubbeya",
+        "titleGurmukhi": "ਸੂਰਜ ਡੁੱਬਿਆ",
+        "titleRoman": "Suraj Dubbeya",
+        "titleEnglish": "The Sun Sank into the Soil",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a blood-red sun sinking below a flat rural horizon behind silhouetted eucalyptus trees."
+      },
+      {
+        "id": "parag-chithi",
+        "titleGurmukhi": "ਪਰਾਗਾ ਚਿੱਠੀ",
+        "titleRoman": "Parag Chithi",
+        "titleEnglish": "A Bundle of Scented Letters",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of dried jasmine petals spilling out of a stack of handwritten Urdu and Gurmukhi postcards."
+      },
+      {
+        "id": "chharhe-jeth",
+        "titleGurmukhi": "ਚੜ੍ਹੇ ਜੇਠ ਦੀ ਧੁੱਪ",
+        "titleRoman": "Charhe Jeth Di Dhup",
+        "titleEnglish": "The Scorching Sun of Summer Solstice",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary bullock cart standing in a cracked dry mud field under a blistering sun."
+      },
+      {
+        "id": "pattal-te-phull",
+        "titleGurmukhi": "ਪੱਤਲ 'ਤੇ ਫੁੱਲ",
+        "titleRoman": "Pattal Te Phull",
+        "titleEnglish": "Flowers Upon a Leaf Platter",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of discarded leaf platters blowing across an empty festival ground in the evening wind."
+      },
+      {
+        "id": "chiriyaan-da-chamba",
+        "titleGurmukhi": "ਸਾਡਾ ਚਿੜੀਆਂ ਦਾ ਚੰਬਾ ਵੇ",
+        "titleRoman": "Saada Chiriyaan Da Chamba Ve",
+        "titleEnglish": "Our Flock of Little Sparrows",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of small sparrows taking flight together from a rustic mud courtyard wall at sunset."
+      },
+      {
+        "id": "tandoor-di-agg",
+        "titleGurmukhi": "ਤੰਦੂਰ ਦੀ ਅੱਗ",
+        "titleRoman": "Tandoor Di Agg",
+        "titleEnglish": "The Blazing Flame of the Clay Oven",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an earthen tandoor glowing cherry-red in the shadows of a Punjabi mud courtyard."
+      },
+      {
+        "id": "meenh-varsiya-sawan-da",
+        "titleGurmukhi": "ਮੀਂਹ ਵਰ੍ਹਿਆ ਸਾਵਣ ਦਾ",
+        "titleRoman": "Meenh Varsiya Sawan Da",
+        "titleEnglish": "The Torrential Downpour of Sawan",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of torrential rain sweeping over tiled rooftops with jagged lightning splitting a dark sky."
+      },
+      {
+        "id": "kachhi-kandh",
+        "titleGurmukhi": "ਕੱਚੀ ਕੰਧ",
+        "titleRoman": "Kachhi Kandh",
+        "titleEnglish": "The Unbaked Mud Wall",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an unbaked mud brick wall crumbling beneath streaming monsoon rain."
+      },
+      {
+        "id": "kachhi-kandh-deeva",
+        "titleGurmukhi": "ਕੱਚੀ ਕੰਧ ਤੇ ਦੀਵਾ",
+        "titleRoman": "Kachhi Kandh Te Deeva",
+        "titleEnglish": "Lamp upon the Earthen Wall",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a tiny clay deeva with fluttering orange flame set in a mud niche as storm winds approach."
+      },
+      {
+        "id": "aate-diyan-chiriyaan",
+        "titleGurmukhi": "ਆਟੇ ਦੀਆਂ ਚਿੜੀਆਂ (ਸਿਰਲੇਖ ਕਵਿਤਾ)",
+        "titleRoman": "Aate Diyan Chiriyaan",
+        "titleEnglish": "The Dough-Sparrows: Title Poem",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch of a mother's weathered hands shaping little sparrows out of wheat dough beside a smoking kiln."
+      },
+      {
+        "id": "mere-dila-mere-aazaad-panchi",
+        "titleGurmukhi": "ਮੇਰੇ ਦਿਲਾ ਮੇਰੇ ਆਜ਼ਾਦ ਪੰਛੀ",
+        "titleRoman": "Mere Dila Mere Aazaad Panchhi",
+        "titleEnglish": "O My Heart, My Wild Free Bird",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch of a wild falcon spreading vast wings over misty river reeds, breaking free from an iron tether."
+      },
+      {
+        "id": "panchhi-ho-jaavan",
+        "titleGurmukhi": "ਪੰਛੀ ਹੋ ਜਾਵਾਂ",
+        "titleRoman": "Panchhi Ho Jaavan",
+        "titleEnglish": "Would That I Were a Bird",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary crane flying toward snow-capped peaks in the distance."
+      },
+      {
+        "id": "mittraan-di-yaad",
+        "titleGurmukhi": "ਮਿੱਤਰਾਂ ਦੀ ਯਾਦ",
+        "titleRoman": "Mittraan Di Yaad",
+        "titleEnglish": "The Remembrance of Lost Comrades",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of two empty wooden benches beneath a sprawling banyan tree at twilight."
+      },
+      {
+        "id": "kachhe-dudh-di-dhaar",
+        "titleGurmukhi": "ਕੱਚੇ ਦੁੱਧ ਦੀ ਧਾਰ",
+        "titleRoman": "Kachhe Dudh Di Dhaar",
+        "titleEnglish": "The Stream of Fresh Unboiled Milk",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an earthen milk-pail foaming with fresh morning milk in a village cattle shed."
+      },
+      {
+        "id": "chanani-raat-da-haal",
+        "titleGurmukhi": "ਚਾਨਣੀ ਰਾਤ ਦਾ ਹਾਲ",
+        "titleRoman": "Chanani Raat Da Haal",
+        "titleEnglish": "The Plight of the Silver Moonlit Night",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of harsh, cold moonlight bathing an empty string-cot in a deserted courtyard."
+      },
+      {
+        "id": "lokan-de-bol",
+        "titleGurmukhi": "ਲੋਕਾਂ ਦੇ ਬੋਲ ਕੌੜੇ",
+        "titleRoman": "Lokan De Bol Kaure",
+        "titleEnglish": "The Bitter Taunts of the World",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of shadowy villagers whispering maliciously behind raised hands in a narrow village lane."
+      },
+      {
+        "id": "chirhi-bichhari",
+        "titleGurmukhi": "ਚਿੜੀ ਵਿਛੜੀ ਕੂੰਜਾਂ ਦੀ",
+        "titleRoman": "Chirhi Bichhari Koonjaan Di",
+        "titleEnglish": "The Solitary Bird Separated from the Crane Flock",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary bird circling low over vast foggy marshes as a chevron of cranes flies far above."
+      },
+      {
+        "id": "nadi-kinare",
+        "titleGurmukhi": "ਨਦੀ ਕਿਨਾਰੇ",
+        "titleRoman": "Nadi Kinare",
+        "titleEnglish": "Beside the River's Restless Current",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of dark river currents swirling past reed beds beneath a pale mist."
+      },
+      {
+        "id": "babul-di-dheeyan",
+        "titleGurmukhi": "ਬਾਬਲ ਦੀਆਂ ਧੀਆਂ",
+        "titleRoman": "Babul Dian Dheeyan",
+        "titleEnglish": "The Daughters of the Paternal Hearth",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an aged father resting his forehead against the wooden doorframe of an empty courtyard."
+      },
+      {
+        "id": "parbat-de-ohle",
+        "titleGurmukhi": "ਪਰਬਤ ਦੇ ਉਹਲੇ",
+        "titleRoman": "Parbat De Ohle",
+        "titleEnglish": "Behind the Solitary Mountain",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of mist-shrouded jagged mountain ridges with a solitary bird gliding across the valley."
+      },
+      {
+        "id": "churiyaan-da-jorha",
+        "titleGurmukhi": "ਚੂੜੀਆਂ ਦਾ ਜੋੜਾ",
+        "titleRoman": "Churiyaan Da Jorha",
+        "titleEnglish": "Pair of Glass Bangles",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of green and red glass bangles broken into sharp shards on a polished threshold stone."
+      },
+      {
+        "id": "babul-da-ghar",
+        "titleGurmukhi": "ਬਾਬਲ ਦਾ ਘਰ",
+        "titleRoman": "Babul Da Ghar",
+        "titleEnglish": "The Father’s Lost Courtyard",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a red bridal palanquin carried out of a mud doorway with an old weeping father standing behind."
+      },
+      {
+        "id": "meenh-te-mrigshala",
+        "titleGurmukhi": "ਮੀਂਹ ਤੇ ਮ੍ਰਿਗਸ਼ਾਲਾ",
+        "titleRoman": "Meenh Te Mrigshala",
+        "titleEnglish": "Rain upon the Forest Grove",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of torrential rain drenching an ancient yogi's deerskin rug laid out beneath a gnarled banyan tree."
+      },
+      {
+        "id": "dharat-di-hikk",
+        "titleGurmukhi": "ਧਰਤ ਦੀ ਹਿੱਕ",
+        "titleRoman": "Dharat Di Hikk",
+        "titleEnglish": "The Soil’s Wounded Breast",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of deep ploughed furrows in dark rich earth under an ominous gathering rain cloud."
+      },
+      {
+        "id": "pani-te-parchhawe",
+        "titleGurmukhi": "ਪਾਣੀ ਤੇ ਪਰਛਾਵੇਂ",
+        "titleRoman": "Pani Te Parchhawe",
+        "titleEnglish": "Shadows Gliding upon Canal Water",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of rippling canal water reflecting willow branches and an indistinct human silhouette."
+      },
+      {
+        "id": "ghuggiyan-da-jora",
+        "titleGurmukhi": "ਘੁੱਗੀਆਂ ਦਾ ਜੋੜਾ",
+        "titleRoman": "Ghuggiyan Da Jora",
+        "titleEnglish": "Pair of Mourning Doves",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of two collared doves perched upon a dead acacia branch, one drooping its head in grief."
+      },
+      {
+        "id": "kachhe-kothe-da-booha",
+        "titleGurmukhi": "ਕੱਚੇ ਕੋਠੇ ਦਾ ਬੂਹਾ",
+        "titleRoman": "Kachhe Kothe Da Booha",
+        "titleEnglish": "Door of the Clay Hearth",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a low mud doorway with grass thatch hanging loose as rain puddles form in the entryway."
+      },
+      {
+        "id": "suneha-havan-da",
+        "titleGurmukhi": "ਸੁਨੇਹਾ ਹਵਾਵਾਂ ਦਾ",
+        "titleRoman": "Suneha Hawan Da",
+        "titleEnglish": "Whisper of the Northern Wind",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of tall dry reeds bending under a fierce northern gale beneath a low grey sky."
+      },
+      {
+        "id": "ret-da-mahal",
+        "titleGurmukhi": "ਰੇਤ ਦਾ ਮਹਿਲ",
+        "titleRoman": "Ret Da Mahal",
+        "titleEnglish": "Castle Built of River Sand",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ornate crumbling palace sculpted of wet sand standing at the edge of incoming river waves."
+      },
+      {
+        "id": "chanan-di-toli",
+        "titleGurmukhi": "ਚਾਨਣ ਦੀ ਟੋਲੀ",
+        "titleRoman": "Chanan Di Toli",
+        "titleEnglish": "Company of Morning Rays",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of morning sunbeams streaming through thatched roof crevices onto a sleeping solitary figure."
+      },
+      {
+        "id": "chup-di-koli",
+        "titleGurmukhi": "ਚੁੱਪ ਦੀ ਕੌਲੀ",
+        "titleRoman": "Chup Di Kauli",
+        "titleEnglish": "Bowl of Quiet Tears",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an earthen beggar's bowl overflowing with clear liquid resting on a coarse woven mat."
+      },
+      {
+        "id": "virlaap-geet",
+        "titleGurmukhi": "ਵਿਰਲਾਪ ਗੀਤ",
+        "titleRoman": "Virlaap Geet",
+        "titleEnglish": "Lament for the Unborn Spring",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a weeping woman with head bowed between her knees sitting beside an empty cradling rope."
+      },
+      {
+        "id": "aate-da-diya",
+        "titleGurmukhi": "ਆਟੇ ਦਾ ਦੀਵਾ",
+        "titleRoman": "Aate Da Diya",
+        "titleEnglish": "The Lamp Sculpted of Dough",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an intricate wheat flour lamp floating on rippling dark river water with its tiny flame reflecting in the black current."
+      },
+      {
+        "id": "pardesi-dhola",
+        "titleGurmukhi": "ਪਰਦੇਸੀ ਢੋਲਾ",
+        "titleRoman": "Pardesi Dhola",
+        "titleEnglish": "The Beloved Who Sailed Across the Black Waters",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a maiden standing by an ancient village well, gazing longingly down a deserted horizon."
+      },
+      {
+        "id": "dard-da-dariya",
+        "titleGurmukhi": "ਦਰਦ ਦਾ ਦਰਿਆ",
+        "titleRoman": "Dard Da Dariya",
+        "titleEnglish": "The Turbulent River of Sorrow",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of raging river currents sweeping away an earthen pitcher beneath dark monsoon skies."
+      }
+    ]
+  },
+  "realm_3_snowy_cabin": {
+    "id": "realm_3_snowy_cabin",
+    "name": "The Solitary Ridge Cabin (ਬਰਫ਼ੀਲੀ ਰਾਤ ਦਾ ਕੈਬਿਨ)",
+    "climate": "Cold snowy midnight, whistling mountain wind, glowing hearth fire, frosted windowpanes",
+    "atmosphereTone": "Intense solitude, existential isolation, shelter from the blizzard, warmth of dying embers",
+    "gameplayActivity": "Seeking refuge inside the cabin, warming hands at the wood stove, opening worn leather journals",
+    "sketchSubject": "Charcoal tracing of the crested Falcon (Shikra) perched on a gaunt wrist, oil lamps burning in snow",
+    "historicalThemes": [
+      "The metaphysics of Birha: grief as sacred essence",
+      "Writing on Gold Flake cigarette packets and café napkins in Chandigarh",
+      "The Marxist Progressive critics attacking him for 'bourgeois escapism'"
+    ],
+    "poems": [
+      {
+        "id": "ghamman-di-raat",
+        "titleGurmukhi": "ਗ਼ਮਾਂ ਦੀ ਰਾਤ ਲੰਮੀ ਏ",
+        "titleRoman": "Ghamman Di Raat Lammi Ae",
+        "titleEnglish": "The Night of Sorrows is Endlessly Long",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal drawing of an unblinking eye staring into a pitch-black starry sky through a barred window."
+      },
+      {
+        "id": "kore-kagaz",
+        "titleGurmukhi": "ਕੋਰਾ ਕਾਗ਼ਜ਼",
+        "titleRoman": "Kora Kagaz",
+        "titleEnglish": "The Blank Sheet of Paper",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal drawing of a clean white sheet lying beneath a spilled earthen inkpot on a wooden table."
+      },
+      {
+        "id": "chup-de-bohe",
+        "titleGurmukhi": "ਚੁੱਪ ਦੇ ਬੂਹੇ",
+        "titleRoman": "Chup De Boohe",
+        "titleEnglish": "The Bolted Doors of Silence",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a heavy wooden carved village door tightly barred with a massive iron padlock."
+      },
+      {
+        "id": "kore-kaghaz-te-likh-bhejea",
+        "titleGurmukhi": "ਕੋਰੇ ਕਾਗ਼ਜ਼ 'ਤੇ ਲਿਖ ਭੇਜਿਆ",
+        "titleRoman": "Kore Kaghaz Te Likh Bhejea",
+        "titleEnglish": "I Inscribed Upon a Blank Sheet of Paper",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a quill resting upon a blank sheet of parchment, beside a smoking candle flame."
+      },
+      {
+        "id": "supne-te-parchhaven",
+        "titleGurmukhi": "ਸੁਪਨੇ ਤੇ ਪਰਛਾਵੇਂ",
+        "titleRoman": "Supne Te Parchhaven",
+        "titleEnglish": "Dreams and Fleeting Shadows",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a shadowy human silhouette cast against a stone wall, reaching toward an illusory glowing light."
+      },
+      {
+        "id": "chup-da-shor",
+        "titleGurmukhi": "ਚੁੱਪ ਦਾ ਸ਼ੋਰ",
+        "titleRoman": "Chup Da Shor",
+        "titleEnglish": "The Deafening Clamor of Absolute Silence",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a deserted room with open windows where curtains billow in silent wind."
+      },
+      {
+        "id": "shikra-yaar",
+        "titleGurmukhi": "ਮੈਂ ਇੱਕ ਸ਼ਿਕਰਾ ਯਾਰ ਬਣਾਇਆ",
+        "titleRoman": "Main Ik Shikra Yaar Banaya",
+        "titleEnglish": "I Took a Falcon as My Lover",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 10,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'I Took a Falcon as My Lover', set in a snowy cabin night."
+      },
+      {
+        "id": "joban-rutte-marna",
+        "titleGurmukhi": "ਅਸਾਂ ਤਾਂ ਜੋਬਨ ਰੁੱਤੇ ਮਰਨਾ",
+        "titleRoman": "Assan Taan Joban Rutte Marna",
+        "titleEnglish": "We Shall Die in the Springtime of Our Youth",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 5,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'We Shall Die in the Springtime of Our Youth', set in a snowy cabin night."
+      },
+      {
+        "id": "ikk-kudi",
+        "titleGurmukhi": "ਇੱਕ ਕੁੜੀ ਜਿਹਦਾ ਨਾਮ ਮੁਹੱਬਤ (ਇਸ਼ਤਿਹਾਰ)",
+        "titleRoman": "Ikk Kudi Jihda Naam Mohabbat (Ishtihar)",
+        "titleEnglish": "A Girl Whose Name is Love (Missing Person Notice)",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 10,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'A Girl Whose Name is Love (Missing Person Notice)', set in a snowy cabin night."
+      },
+      {
+        "id": "maye-ni-maye",
+        "titleGurmukhi": "ਮਾਏ ਨੀ ਮਾਏ ਮੇਰੇ ਗੀਤਾਂ ਦੇ ਨੈਣਾਂ ਵਿੱਚ",
+        "titleRoman": "Maye Ni Maye Mere Geetan De Naina Vich",
+        "titleEnglish": "O Mother, in the Eyes of My Songs Lies the Thorn of Separation",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 8,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'O Mother, in the Eyes of My Songs Lies the Thorn of Separation', set in a snowy cabin night."
+      },
+      {
+        "id": "shikhar-dupehr",
+        "titleGurmukhi": "ਸ਼ਿਖਰ ਦੁਪਹਿਰੇ ਸਿਰ ਤੇ",
+        "titleRoman": "Shikhar Dupehr Sir Te",
+        "titleEnglish": "At the Blazing Meridian of Noon",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'At the Blazing Meridian of Noon', set in a snowy cabin night."
+      },
+      {
+        "id": "ajj-din-charhya",
+        "titleGurmukhi": "ਅੱਜ ਦਿਨ ਚੜ੍ਹਿਆ ਤੇਰੇ ਰੰਗ ਵਰਗਾ",
+        "titleRoman": "Ajj Din Charhya Tere Rang Varga",
+        "titleEnglish": "Today the Dawn Rose in the Color of Your Countenance",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'Today the Dawn Rose in the Color of Your Countenance', set in a snowy cabin night."
+      },
+      {
+        "id": "tenu-dita-khidona",
+        "titleGurmukhi": "ਤੈਨੂੰ ਦਿੱਤਾ ਖਿਡੌਣਾ",
+        "titleRoman": "Tenu Dita Khidona",
+        "titleEnglish": "I Gave You a Plaything: My Heart",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'I Gave You a Plaything: My Heart', set in a snowy cabin night."
+      },
+      {
+        "id": "kadi-taan-mil",
+        "titleGurmukhi": "ਕਦੀ ਤਾਂ ਮਿਲ",
+        "titleRoman": "Kadi Taan Mil",
+        "titleEnglish": "Meet Me Just Once Before the End",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'Meet Me Just Once Before the End', set in a snowy cabin night."
+      },
+      {
+        "id": "birha-tu-sultan-title",
+        "titleGurmukhi": "ਬਿਰਹਾ ਤੂੰ ਸੁਲਤਾਨ (ਸਿਰਲੇਖ ਮਹਾਂਕਾਵਿ)",
+        "titleRoman": "Birha Tu Sultan",
+        "titleEnglish": "Separation, Thou Art Sovereign Emperor",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch of an ethereal regal crown fashioned of thorns resting upon a snow-covered boulder at midnight."
+      },
+      {
+        "id": "dukhan-da-raaj",
+        "titleGurmukhi": "ਦੁੱਖਾਂ ਦਾ ਰਾਜ",
+        "titleRoman": "Dukhan Da Raaj",
+        "titleEnglish": "The Imperial Kingdom of Sorrows",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ancient throne carved of black granite sitting empty in a snowy forest clearing."
+      },
+      {
+        "id": "aag-di-nadi",
+        "titleGurmukhi": "ਅੱਗ ਦੀ ਨਦੀ",
+        "titleRoman": "Aag Di Nadi",
+        "titleEnglish": "The River of Living Flame",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of molten liquid fire flowing between dark obsidian riverbanks under a starless sky."
+      },
+      {
+        "id": "kise-di-yaad-vich",
+        "titleGurmukhi": "ਕਿਸੇ ਦੀ ਯਾਦ ਵਿੱਚ",
+        "titleRoman": "Kise Di Yaad Vich",
+        "titleEnglish": "In the Sanctuary of Her Memory",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary window framed by creeping ivy looking out upon a misty twilight valley."
+      },
+      {
+        "id": "maan-meri-pardesan",
+        "titleGurmukhi": "ਮਾਂ ਮੇਰੀ ਪਰਦੇਸਣ",
+        "titleRoman": "Maan Meri Pardesan",
+        "titleEnglish": "My Mother in the Distant Homeland",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an elderly Punjabi mother standing by a wooden cart gazing across a barbed wire border."
+      },
+      {
+        "id": "husan-de-bazaar",
+        "titleGurmukhi": "ਹੁਸਨ ਦੇ ਬਾਜ਼ਾਰ ਵਿੱਚ",
+        "titleRoman": "Husan De Bazaar Vich",
+        "titleEnglish": "In the Merchant Bazaars of Beauty",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ornate crowded bazaar alley with silk veils hanging in shopfronts while a solitary poet walks past with head bowed."
+      },
+      {
+        "id": "zeher-da-ghutt",
+        "titleGurmukhi": "ਜ਼ਹਿਰ ਦਾ ਘੁੱਟ",
+        "titleRoman": "Zeher Da Ghutt",
+        "titleEnglish": "Gulping the Goblet of Hemlock",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an antique brass goblet overflowing with dark bubbling liquid resting beside a skull."
+      },
+      {
+        "id": "shikra-ud-challeya",
+        "titleGurmukhi": "ਸ਼ਿਕਰਾ ਉੱਡ ਚੱਲਿਆ",
+        "titleRoman": "Shikra Udd Challeya",
+        "titleEnglish": "The Falcon Has Taken Flight into the Cloud",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a crested hawk with leather talons soaring high above a mountain forest towards grey thunderclouds."
+      },
+      {
+        "id": "raat-bhirhi",
+        "titleGurmukhi": "ਰਾਤ ਭੀੜੀ ਤੇ ਇਕੱਲੀ",
+        "titleRoman": "Raat Bhirhi Te Ikalli",
+        "titleEnglish": "Narrow, Suffocating Solitary Night",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a small dark room with low ceiling and a single candle burning down to its tallow base on an unvarnished stool."
+      },
+      {
+        "id": "geetan-da-shikhar",
+        "titleGurmukhi": "ਗੀਤਾਂ ਦਾ ਸ਼ਿਖ਼ਰ",
+        "titleRoman": "Geetan Da Shikhar",
+        "titleEnglish": "Zenith of Tragic Song",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of musical notes dissolving into tongues of flame leaping above an open leather-bound manuscript."
+      },
+      {
+        "id": "soorma-dhoya",
+        "titleGurmukhi": "ਸੁਰਮਾ ਧੋਇਆ ਨੈਣਾਂ 'ਚੋਂ",
+        "titleRoman": "Soorma Dhoya Naina Chon",
+        "titleEnglish": "Washing Kohl in Brackish Tears",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of black streaks of washed kohl streaming down hollow pale cheeks onto a silk dupatta."
+      },
+      {
+        "id": "chandigarh-di-sarak",
+        "titleGurmukhi": "ਚੰਡੀਗੜ੍ਹ ਦੀ ਸੜਕ ਤੇ",
+        "titleRoman": "Chandigarh Di Sarak Te",
+        "titleEnglish": "On the Concrete Avenues of Alienation",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of straight modern asphalt avenues lined with geometric concrete blocks under cold streetlamps."
+      },
+      {
+        "id": "birha-de-hoke",
+        "titleGurmukhi": "ਬਿਰਹਾ ਦੇ ਹੌਕੇ",
+        "titleRoman": "Birha De Hoke",
+        "titleEnglish": "The Cosmic Groans of Separation",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of swirling grey winds forming a giant spectral face groaning across an empty night plain."
+      },
+      {
+        "id": "mitti-vich-mitti",
+        "titleGurmukhi": "ਮਿੱਟੀ ਵਿੱਚ ਮਿੱਟੀ",
+        "titleRoman": "Mitti Vich Mitti",
+        "titleEnglish": "Earth Returning into Earth",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of freshly turned dark loam with roots exposed and clay returning to dust."
+      },
+      {
+        "id": "ik-hor-shikra",
+        "titleGurmukhi": "ਇੱਕ ਹੋਰ ਸ਼ਿਕਰਾ",
+        "titleRoman": "Ik Hor Shikra",
+        "titleEnglish": "Another Falcon upon the Horizon",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary hooded hawk perched on a dead branch gazing down into a dark valley."
+      },
+      {
+        "id": "ant-vela",
+        "titleGurmukhi": "ਅੰਤ ਵੇਲਾ ਆ ਗਿਆ",
+        "titleRoman": "Ant Vela Aa Gaya",
+        "titleEnglish": "The Final Hour Has Struck",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an hourglass with the last grains of sand slipping through beside a burnt-out candle in a snow-covered cabin window."
+      }
+    ]
+  },
+  "realm_4_mountain_loona": {
+    "id": "realm_4_mountain_loona",
+    "name": "The Barren Peaks of Sialkot (ਲੂਣਾ ਦੀਆਂ ਕਾਲੀਆਂ ਚੱਟਾਨਾਂ)",
+    "climate": "Twilight storm, jagged dark slate cliffs, wind howling through abandoned marble archways",
+    "atmosphereTone": "Fierce defiance, anti-patriarchal rage, moral tragedy, shattered feudal statues",
+    "gameplayActivity": "Ascending desolate rock staircases, discovering cracked palace edicts, peering into dry ancient wells",
+    "sketchSubject": "Charcoal sketches of Loona throwing her golden crown into the dust, Puran's severed limbs, the dry well",
+    "historicalThemes": [
+      "Subversion of the 1,000-year-old Puran Bhagat legend",
+      "Winning the Sahitya Akademi Award at 31 as the youngest laureate",
+      "Backlash from conservative moralists and jealous literary gatekeepers"
+    ],
+    "poems": [
+      {
+        "id": "thohar-kandiali",
+        "titleGurmukhi": "ਮੈਂ ਕੰਡਿਆਲੀ ਥੋਹਰ ਵੇ ਸੱਜਣਾ",
+        "titleRoman": "Main Kandiali Thohar Ve Sajjna",
+        "titleEnglish": "I Am a Thorny Cactus, O Beloved",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary thorny cactus standing resolute on a cracked, arid soil beneath an empty sky."
+      },
+      {
+        "id": "birha-da-tirh",
+        "titleGurmukhi": "ਬਿਰਹਾ ਦਾ ਤੀਰ",
+        "titleRoman": "Birha Da Teer",
+        "titleEnglish": "The Arrow of Unbearable Longing",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ancient bow and an iron-tipped arrow buried deep in the soil beside a withered tree."
+      },
+      {
+        "id": "thohar-de-phull",
+        "titleGurmukhi": "ਥੋਹਰ ਦੇ ਫੁੱਲ",
+        "titleRoman": "Thohar De Phull",
+        "titleEnglish": "Blossoms of the Thorny Cactus",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a prickly pear cactus bearing a single blood-red flower amidst dry scrubland."
+      },
+      {
+        "id": "sassi-punnu-da-dard",
+        "titleGurmukhi": "ਸੱਸੀ-ਪੁੰਨੂੰ ਦਾ ਦਰਦ",
+        "titleRoman": "Sassi Punnu Da Dard",
+        "titleEnglish": "The Torment of Sassi in the Blazing Sands",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of solitary footprints fading into sweeping desert dunes beneath a ruthless midday sun."
+      },
+      {
+        "id": "chup-kar-saadhua",
+        "titleGurmukhi": "ਚੁੱਪ ਕਰ ਸਾਧੂਆ",
+        "titleRoman": "Chup Kar Saadhua",
+        "titleEnglish": "Silence Thy Preaching, O Ascetic",
+        "book": "Birha Tu Sultan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ochre-robed hermit sitting beside a stone cave, listening to a youthful minstrel."
+      },
+      {
+        "id": "loona-act-1",
+        "titleGurmukhi": "ਲੂਣਾ : ਪਹਿਲਾ ਅੰਕ (ਧਨਵੰਤੀ ਤੇ ਉਹਦੇ ਪਹਾੜਾਂ ਦੇ ਨਾਂ)",
+        "titleRoman": "Loona: Pehla Ank (Dhanwanti te Chamba)",
+        "titleEnglish": "Act I: The Mountains of Chamba & River Ravi",
+        "book": "Loona",
+        "year": 1965,
+        "stanzasCount": 37,
+        "sketchPrompt": "Dramatic charcoal sketch depicting 'Act I: The Mountains of Chamba & River Ravi', set among the ancient slate rocks of Sialkot and Chamba."
+      },
+      {
+        "id": "loona-act-2",
+        "titleGurmukhi": "ਲੂਣਾ : ਦੂਜਾ ਅੰਕ (ਬਾਰੂ ਦੀ ਹਵੇਲੀ ਤੇ ਲੂਣਾ ਦਾ ਰੂਪ)",
+        "titleRoman": "Loona: Dooja Ank (Baroo di Haveli)",
+        "titleEnglish": "Act II: Baroo's Courtyard & The Forced Betrothal",
+        "book": "Loona",
+        "year": 1965,
+        "stanzasCount": 34,
+        "sketchPrompt": "Dramatic charcoal sketch depicting 'Act II: Baroo's Courtyard & The Forced Betrothal', set among the ancient slate rocks of Sialkot and Chamba."
+      },
+      {
+        "id": "loona-act-3",
+        "titleGurmukhi": "ਲੂਣਾ : ਤੀਜਾ ਅੰਕ (ਸਿਆਲਕੋਟ ਦਾ ਮਹਿਲ ਤੇ ਵਿਆਹ)",
+        "titleRoman": "Loona: Teeja Ank (Sialkot da Mehal)",
+        "titleEnglish": "Act III: The Royal Wedding & Entry into Sialkot",
+        "book": "Loona",
+        "year": 1965,
+        "stanzasCount": 24,
+        "sketchPrompt": "Dramatic charcoal sketch depicting 'Act III: The Royal Wedding & Entry into Sialkot', set among the ancient slate rocks of Sialkot and Chamba."
+      },
+      {
+        "id": "loona-act-4",
+        "titleGurmukhi": "ਲੂਣਾ : ਚੌਥਾ ਅੰਕ (ਰਾਣੀ ਇੱਛਰਾਂ ਦਾ ਵਿਰਲਾਪ)",
+        "titleRoman": "Loona: Chautha Ank (Ichhran da Virlaap)",
+        "titleEnglish": "Act IV: Queen Ichhran's Grief & The New Queen",
+        "book": "Loona",
+        "year": 1965,
+        "stanzasCount": 18,
+        "sketchPrompt": "Dramatic charcoal sketch depicting 'Act IV: Queen Ichhran's Grief & The New Queen', set among the ancient slate rocks of Sialkot and Chamba."
+      },
+      {
+        "id": "loona-act-5",
+        "titleGurmukhi": "ਲੂਣਾ : ਪੰਜਵਾਂ ਅੰਕ (ਪੂਰਨ ਤੇ ਲੂਣਾ ਦਾ ਟਕਰਾਅ)",
+        "titleRoman": "Loona: Panjvaan Ank (Puran-Loona Takraar)",
+        "titleEnglish": "Act V: The Great Confrontation in the Palace",
+        "book": "Loona",
+        "year": 1965,
+        "stanzasCount": 35,
+        "sketchPrompt": "Dramatic charcoal sketch depicting 'Act V: The Great Confrontation in the Palace', set among the ancient slate rocks of Sialkot and Chamba."
+      },
+      {
+        "id": "loona-act-6",
+        "titleGurmukhi": "ਲੂਣਾ : ਛੇਵਾਂ ਅੰਕ (ਬਾਗ਼ 'ਚ ਸੈਰ ਤੇ ਦੋਸ਼)",
+        "titleRoman": "Loona: Chhevaan Ank (Bag vich Sair)",
+        "titleEnglish": "Act VI: The Evening Walk & The Deadly Accusation",
+        "book": "Loona",
+        "year": 1965,
+        "stanzasCount": 15,
+        "sketchPrompt": "Dramatic charcoal sketch depicting 'Act VI: The Evening Walk & The Deadly Accusation', set among the ancient slate rocks of Sialkot and Chamba."
+      },
+      {
+        "id": "loona-act-7",
+        "titleGurmukhi": "ਲੂਣਾ : ਸੱਤਵਾਂ ਅੰਕ (ਪੂਰਨ ਨੂੰ ਸਜ਼ਾ - ਹੱਥ ਕੱਟਣੇ)",
+        "titleRoman": "Loona: Satvaan Ank (Puran nu Dand)",
+        "titleEnglish": "Act VII: The Mutilation of Puran at the Dry Well",
+        "book": "Loona",
+        "year": 1965,
+        "stanzasCount": 18,
+        "sketchPrompt": "Dramatic charcoal sketch depicting 'Act VII: The Mutilation of Puran at the Dry Well', set among the ancient slate rocks of Sialkot and Chamba."
+      },
+      {
+        "id": "loona-act-8",
+        "titleGurmukhi": "ਲੂਣਾ : ਅੱਠਵਾਂ ਅੰਕ (ਸਮਾਪਤੀ - ਲੂਣਾ ਦੀ ਆਖ਼ਰੀ ਚੀਕ)",
+        "titleRoman": "Loona: Athvaan Ank (Loona di Aakhri Cheek)",
+        "titleEnglish": "Act VIII: Epilogue: Loona's Curse Upon Feudalism",
+        "book": "Loona",
+        "year": 1965,
+        "stanzasCount": 34,
+        "sketchPrompt": "Dramatic charcoal sketch depicting 'Act VIII: Epilogue: Loona's Curse Upon Feudalism', set among the ancient slate rocks of Sialkot and Chamba."
+      }
+    ]
+  },
+  "realm_5_crossroad_void": {
+    "id": "realm_5_crossroad_void",
+    "name": "The Crossroad of the Void & Kir Mangyal (ਸੁੰਨ ਦਾ ਚੌਰਾਹਾ)",
+    "climate": "Dusk turning to deep indigo night, distant ember sparks, autumn leaves drifting across railway tracks",
+    "atmosphereTone": "Terminal peace, weary surrender, ghostly radio signals fading into static, immortality",
+    "gameplayActivity": "Following faint audio static on an old tape recorder, discovering wiped reels, arriving at the silent village orchard",
+    "sketchSubject": "Charcoal drawing of empty tape spools unwinding into the wind, a solitary hospital cot at dawn",
+    "historicalThemes": [
+      "The London exile and sole surviving BBC 1972 broadcast",
+      "Institutional wiping of Akashvani and Doordarshan broadcast spools",
+      "Untimely death at 36 in Kir Mangyal on May 6/7, 1973"
+    ],
+    "poems": [
+      {
+        "id": "maut-nu-aawaza",
+        "titleGurmukhi": "ਮੌਤ ਨੂੰ ਆਵਾਜ਼ਾਂ ਮਾਰੀਆਂ",
+        "titleRoman": "Maut Nu Aawazaan Maariyaan",
+        "titleEnglish": "Calling Out into the Abyss of Death",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a cloaked figure extending an open palm toward a shadowy riverbank at twilight."
+      },
+      {
+        "id": "sukke-patte",
+        "titleGurmukhi": "ਸੁੱਕੇ ਪੱਤੇ",
+        "titleRoman": "Sukke Patte",
+        "titleEnglish": "Dry Leaves of Autumn",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of crisp dried leaves scattering down a winding country lane swept by autumn wind."
+      },
+      {
+        "id": "akhiri-ardaas",
+        "titleGurmukhi": "ਆਖ਼ਰੀ ਅਰਦਾਸ",
+        "titleRoman": "Akhiri Ardaas",
+        "titleEnglish": "The Final Supplication Before Dusk",
+        "book": "Piran da Paraga",
+        "year": 1960,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of folded hands emerging from darkness toward a single guttering earthen lamp."
+      },
+      {
+        "id": "yarriye-ni-yarriye",
+        "titleGurmukhi": "ਯਾਰੀਏ ਨੀ ਯਾਰੀਏ",
+        "titleRoman": "Yarriye Ni Yarriye",
+        "titleEnglish": "O Treacherous Friendship of Love",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an overturned wine goblet spilling dark liquid onto an unfinished manuscript."
+      },
+      {
+        "id": "kach-da-glass",
+        "titleGurmukhi": "ਕੱਚ ਦਾ ਗਲਾਸ",
+        "titleRoman": "Kach Da Glass",
+        "titleEnglish": "The Tumbler of Brittle Glass",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of shattered glass shards scattered across cobblestones catching moonlight."
+      },
+      {
+        "id": "hassde-hoeyan",
+        "titleGurmukhi": "ਹੱਸਦੇ ਹੋਇਆਂ",
+        "titleRoman": "Hassde Hoeyan",
+        "titleEnglish": "With Laughter on My Lips",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a theater mask half in laughter and half weeping black charcoal tears."
+      },
+      {
+        "id": "doli-turi",
+        "titleGurmukhi": "ਡੋਲੀ ਤੁਰੀ ਕਹਿਰਾਂ ਦੀ",
+        "titleRoman": "Doli Turi Kehraan Di",
+        "titleEnglish": "The Tragic Palanquin Moves Away",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a red silk bridal palanquin carried by four bearers down a dusty, winding rural road at dusk."
+      },
+      {
+        "id": "chhanna-bhar-zeher",
+        "titleGurmukhi": "ਛੰਨਾ ਭਰ ਜ਼ਹਿਰ",
+        "titleRoman": "Chhanna Bhar Zeher",
+        "titleEnglish": "A Bronze Bowl Filled with Poison",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ornate heavy bronze bowl with liquid overflowing across a wooden table."
+      },
+      {
+        "id": "dillan-de-saudagar",
+        "titleGurmukhi": "ਦਿਲਾਂ ਦੇ ਸੌਦਾਗਰ",
+        "titleRoman": "Dillan De Saudagar",
+        "titleEnglish": "The Merchants of Broken Hearts",
+        "book": "Lajwanti",
+        "year": 1961,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an antique bazaar balance weighing bleeding paper scraps against sacks of copper coins."
+      },
+      {
+        "id": "teeje-pehar-di-dhupp",
+        "titleGurmukhi": "ਤੀਜੇ ਪਹਿਰ ਦੀ ਧੁੱਪ",
+        "titleRoman": "Teeje Pehar Di Dhupp",
+        "titleEnglish": "The Slanted Sunlight of Late Afternoon",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of long shadows stretching across empty harvested fields as an amber sun sinks toward the horizon."
+      },
+      {
+        "id": "khabran-da-daur",
+        "titleGurmukhi": "ਖ਼ਬਰਾਂ ਦਾ ਦੌਰ",
+        "titleRoman": "Khabran Da Daur",
+        "titleEnglish": "The Era of Printed Rumors and Gossips",
+        "book": "Aate Dian Chiriyean",
+        "year": 1962,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of discarded newspapers blowing down a wet city alleyway beneath a flickering lamppost."
+      },
+      {
+        "id": "mainu-vida-karo",
+        "titleGurmukhi": "ਮੈਨੂੰ ਵਿਦਾ ਕਰੋ (ਸਿਰਲੇਖ ਕਵਿਤਾ)",
+        "titleRoman": "Mainu Vida Karo",
+        "titleEnglish": "Bid Me Farewell: Title Poem",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch of a solitary traveler in a long wool shawl walking down a dusty road away from village rooftops into a glowing red dusk."
+      },
+      {
+        "id": "zehar-da-pyaala",
+        "titleGurmukhi": "ਜ਼ਹਿਰ ਦਾ ਪਿਆਲਾ",
+        "titleRoman": "Zehar Da Pyaala",
+        "titleEnglish": "The Goblet of Poison",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an antique brass goblet bubbling with dark liquid beside an unlit pipe."
+      },
+      {
+        "id": "maut-da-suneha",
+        "titleGurmukhi": "ਮੌਤ ਦਾ ਸੁਨੇਹਾ",
+        "titleRoman": "Maut Da Suneha",
+        "titleEnglish": "The Tidings of Approaching Death",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a dark winged silhouette resting upon a wooden windowsill beside an extinguished candle."
+      },
+      {
+        "id": "aakhri-salaam",
+        "titleGurmukhi": "ਆਖ਼ਰੀ ਸਲਾਮ",
+        "titleRoman": "Aakhri Salaam",
+        "titleEnglish": "The Final Salutation to the World",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a hand raised in quiet greeting against the fading glow of a twilight sun."
+      },
+      {
+        "id": "kore-kagaz-te-dastkhat",
+        "titleGurmukhi": "ਕੋਰੇ ਕਾਗ਼ਜ਼ 'ਤੇ ਦਸਤਖ਼ਤ",
+        "titleRoman": "Kore Kagaz Te Dastkhat",
+        "titleEnglish": "Signature Upon a Blank Deed",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ornate signature inscribed in black ink at the bottom of a blank parchment scroll."
+      },
+      {
+        "id": "alvida-punjab",
+        "titleGurmukhi": "ਅਲਵਿਦਾ ਪੰਜਾਬ",
+        "titleRoman": "Alvida Punjab",
+        "titleEnglish": "Farewell to the Soil of Punjab",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of five winding river currents merging into a golden sunset over lush green Punjab plains."
+      },
+      {
+        "id": "kafan-da-libaas",
+        "titleGurmukhi": "ਕਫ਼ਨ ਦਾ ਲਿਬਾਸ",
+        "titleRoman": "Kafan Da Libaas",
+        "titleEnglish": "The White Shroud as My Only Garment",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of white unstitched cotton fabric draped over wooden poles against a twilight sky."
+      },
+      {
+        "id": "shamshaan-di-raakh",
+        "titleGurmukhi": "ਸ਼ਮਸ਼ਾਨ ਦੀ ਰਾਖ਼",
+        "titleRoman": "Shamshaan Di Raakh",
+        "titleEnglish": "The Holy Ashes of the Cremation Ground",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of grey embers and smoldering ashes beside a slow river current under an evening sky."
+      },
+      {
+        "id": "maut-di-boli",
+        "titleGurmukhi": "ਮੌਤ ਦੀ ਬੋਲੀ",
+        "titleRoman": "Maut Di Boli",
+        "titleEnglish": "The Gentle Dialect of Death",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ethereal veiled woman gently placing a blanket over a sleeping youth."
+      },
+      {
+        "id": "batti-bujha-de",
+        "titleGurmukhi": "ਬੱਤੀ ਬੁਝਾ ਦੇ ਮਾਏ",
+        "titleRoman": "Batti Bujha De Maye",
+        "titleEnglish": "Extinguish the Lamp, O Mother",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an earthen lamp whose flame flickers and turns to a thin wisp of smoke."
+      },
+      {
+        "id": "dard-da-khel",
+        "titleGurmukhi": "ਦਰਦ ਦਾ ਖੇਲ",
+        "titleRoman": "Dard Da Khel",
+        "titleEnglish": "The Staged Game of Suffering",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of cracked bone dice resting upon an old checkered wooden game board."
+      },
+      {
+        "id": "vidaai-geet",
+        "titleGurmukhi": "ਵਿਦਾਈ ਗੀਤ",
+        "titleRoman": "Vidaai Geet",
+        "titleEnglish": "The Valedictory Song of the Wayfarer",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of dust swirling in the tracks of a departing cart as the sun sinks below the flat horizon."
+      },
+      {
+        "id": "kafan-di-chaadar",
+        "titleGurmukhi": "ਕਫ਼ਨ ਦੀ ਚਾਦਰ",
+        "titleRoman": "Kafan Di Chaadar",
+        "titleEnglish": "The Shroud of White Mist",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a white unstitched linen sheet floating through heavy night mist over an open field."
+      },
+      {
+        "id": "maut-di-sej",
+        "titleGurmukhi": "ਮੌਤ ਦੀ ਸੇਜ",
+        "titleRoman": "Maut Di Sej",
+        "titleEnglish": "The Nuptial Bed of Death",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary wooden cot laid with white sheets standing alone in a clearing under weeping willow branches."
+      },
+      {
+        "id": "chita-di-agg",
+        "titleGurmukhi": "ਚਿਖ਼ਾ ਦੀ ਅੱਗ",
+        "titleRoman": "Chikha Di Agg",
+        "titleEnglish": "Flames of the Cremation Ground",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of tall orange and black tongues of flame leaping upwards against an inky night sky beside a dark river."
+      },
+      {
+        "id": "tutte-dastkhat",
+        "titleGurmukhi": "ਟੁੱਟੇ ਦਸਤਖ਼ਤ",
+        "titleRoman": "Tutte Dastkhat",
+        "titleEnglish": "Broken Signature on Destiny",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ink-stained quill snapped in half over a legal deed of destiny with blotches of black ink."
+      },
+      {
+        "id": "siveyaan-di-raakh",
+        "titleGurmukhi": "ਸਿਵਿਆਂ ਦੀ ਰਾਖ",
+        "titleRoman": "Siveyaan Di Raakh",
+        "titleEnglish": "Ashes of the Smoldering Pyre",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of cold grey ashes strewn over stones beside river mud with smoke drifting away."
+      },
+      {
+        "id": "akhri-manzil",
+        "titleGurmukhi": "ਆਖ਼ਰੀ ਮੰਜ਼ਿਲ",
+        "titleRoman": "Akhri Manzil",
+        "titleEnglish": "The Terminal Destination",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ancient stone mile-marker on an overgrown dirt road pointing towards a cemetery wall."
+      },
+      {
+        "id": "chup-de-vass",
+        "titleGurmukhi": "ਚੁੱਪ ਦੇ ਵੱਸ",
+        "titleRoman": "Chup De Vass",
+        "titleEnglish": "Under the Dominion of Silence",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary figure sitting on an abandoned milestone with fingers pressed against sealed lips."
+      },
+      {
+        "id": "sukke-rukhan-da-shok",
+        "titleGurmukhi": "ਸੁੱਕੇ ਰੁੱਖਾਂ ਦਾ ਸੋਗ",
+        "titleRoman": "Sukke Rukhan Da Shok",
+        "titleEnglish": "Mourning of the Leafless Trees",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of bare, twisted winter tree branches clawing at an overcast, grey evening sky."
+      },
+      {
+        "id": "andheri-gali",
+        "titleGurmukhi": "ਹਨੇਰੀ ਗਲੀ",
+        "titleRoman": "Handheri Gali",
+        "titleEnglish": "The Dark and Narrow Alley",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a cramped, dark cobblestone lane between crumbling tall brick buildings terminating in a dead wall."
+      },
+      {
+        "id": "antim-safarnama",
+        "titleGurmukhi": "ਅੰਤਮ ਸਫ਼ਰਨਾਮਾ",
+        "titleRoman": "Antim Safarnama",
+        "titleEnglish": "The Final Itinerary",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an empty wooden bullock cart standing beside a fork in the road as dusk falls over a dry river."
+      },
+      {
+        "id": "shamshaan-da-deeva",
+        "titleGurmukhi": "ਸ਼ਮਸ਼ਾਨ ਦਾ ਦੀਵਾ",
+        "titleRoman": "Shamshaan Da Deeva",
+        "titleEnglish": "Lamp Burning at the Graveyard",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a small clay lamp burning in a hollow brick niche of a deserted graveyard wall at midnight."
+      },
+      {
+        "id": "vidaai-arzi",
+        "titleGurmukhi": "ਵਿਦਾਈ ਅਰਜ਼ੀ",
+        "titleRoman": "Vidaai Arzi",
+        "titleEnglish": "Petition for Eternal Departure",
+        "book": "Mainu Vida Karo",
+        "year": 1963,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a folded handwritten petition sealed with red wax lying on a rough stone threshold."
+      },
+      {
+        "id": "jaach-mainu-aa-gayi",
+        "titleGurmukhi": "ਜਾਚ ਮੈਨੂੰ ਆ ਗਈ ਗ਼ਮ ਖਾਣ ਦੀ",
+        "titleRoman": "Jaach Mainu Aa Gayi Gham Khaan Di",
+        "titleEnglish": "I Have Mastered the Art of Consuming Grief",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 5,
+        "sketchPrompt": "Charcoal sketch of a solitary figure in a shadowy tavern corner, raising an empty glass with a bitter smile."
+      },
+      {
+        "id": "mainu-tera-shabab",
+        "titleGurmukhi": "ਮੈਨੂੰ ਤੇਰਾ ਸ਼ਬਾਬ ਲੈ ਬੈਠਾ",
+        "titleRoman": "Mainu Tera Shabab Lai Baitha",
+        "titleEnglish": "The Splendor of Your Youth Ruined Me",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch of a flickering candle throwing distorted shadows across bottles of liquor and crumpled papers."
+      },
+      {
+        "id": "ishq-di-baazi",
+        "titleGurmukhi": "ਇਸ਼ਕ ਦੀ ਬਾਜ਼ੀ",
+        "titleRoman": "Ishq Di Baazi",
+        "titleEnglish": "The High Wager of Passion",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a chessboard where the king piece lies fallen on a blood-stained stone floor."
+      },
+      {
+        "id": "dard-mandan-di-dastaan",
+        "titleGurmukhi": "ਦਰਦ-ਮੰਦਾਂ ਦੀ ਦਾਸਤਾਨ",
+        "titleRoman": "Dard Mandan Di Dastaan",
+        "titleEnglish": "The Chronicle of the Suffering Wayfarers",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of weary travelers huddled around a dying fire under a stormy night sky."
+      },
+      {
+        "id": "peedan-da-shehar",
+        "titleGurmukhi": "ਪੀੜਾਂ ਦਾ ਸ਼ਹਿਰ",
+        "titleRoman": "Peedan Da Shehar",
+        "titleEnglish": "The Necropolis of Urban Sorrows",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of cold geometric concrete building blocks standing beneath a grid of streetlights."
+      },
+      {
+        "id": "zindagi-ik-khed-hai",
+        "titleGurmukhi": "ਜ਼ਿੰਦਗੀ ਇੱਕ ਖੇਡ ਹੈ",
+        "titleRoman": "Zindagi Ik Khed Hai",
+        "titleEnglish": "Life is a Puppeteer's Theatrical Game",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of wooden marionette puppets suspended from tangled strings above a dark miniature stage."
+      },
+      {
+        "id": "ghamman-da-parona",
+        "titleGurmukhi": "ਗ਼ਮਾਂ ਦਾ ਪ੍ਰਾਹੁਣਾ",
+        "titleRoman": "Ghamman Da Parona",
+        "titleEnglish": "The Uninvited Guest of Sorrow",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an empty wooden chair illuminated by a lantern, placed before an open courtyard gate at midnight."
+      },
+      {
+        "id": "maut-nu-aawaz",
+        "titleGurmukhi": "ਮੌਤ ਨੂੰ ਆਵਾਜ਼",
+        "titleRoman": "Maut Nu Aawaz",
+        "titleEnglish": "Summoning Death into the Cold Night",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of frost-covered windowpanes overlooking a frozen, silent winter garden under starlight."
+      },
+      {
+        "id": "peeti-te-kujh-na-keha",
+        "titleGurmukhi": "ਪੀਤੀ ਤੇ ਕੁਝ ਨਾ ਕਿਹਾ",
+        "titleRoman": "Peeti Te Kujh Na Keha",
+        "titleEnglish": "I Drank the Wine and Uttered No Cry",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary brass goblet reflecting the dim flame of an oil lamp on a rough tavern table."
+      },
+      {
+        "id": "shama-bujh-gayi",
+        "titleGurmukhi": "ਸ਼ਮਾ ਬੁੱਝ ਗਈ",
+        "titleRoman": "Shama Bujh Gayi",
+        "titleEnglish": "The Candle Flickered Out in the Wind",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a smoking wick with molten wax dripping down a carved candelabra as a moth lies dead beside it."
+      },
+      {
+        "id": "sharab-te-shikwa",
+        "titleGurmukhi": "ਸ਼ਰਾਬ ਤੇ ਸ਼ਿਕਵਾ",
+        "titleRoman": "Sharab Te Shikwa",
+        "titleEnglish": "Liquor and Lamentation",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an overturned wine bottle spilling dark liquid over scribbled lines of poetry on parchment."
+      },
+      {
+        "id": "zakham-te-marham",
+        "titleGurmukhi": "ਜ਼ਖ਼ਮ ਤੇ ਮਰਹਮ",
+        "titleRoman": "Zakham Te Marham",
+        "titleEnglish": "Wounds That Spurn All Ointment",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a hand refusing an apothecary's porcelain balm jar, holding open a blood-stained tunic."
+      },
+      {
+        "id": "pyas-na-bujhi",
+        "titleGurmukhi": "ਪਿਆਸ ਨਾ ਬੁੱਝੀ",
+        "titleRoman": "Pyas Na Bujhi",
+        "titleEnglish": "The Thirst That No Wine Could Sate",
+        "book": "Dardmandaan Dian Aahaan",
+        "year": 1964,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of cracked desert earth reaching towards a mirage of shimmering water under a blazing copper sky."
+      },
+      {
+        "id": "main-te-main",
+        "titleGurmukhi": "ਮੈਂ ਤੇ ਮੈਂ (ਸਿਰਲੇਖ ਕਵਿਤਾ)",
+        "titleRoman": "Main Te Main",
+        "titleEnglish": "I and Myself: The Fractured Ego",
+        "book": "Main te Main",
+        "year": 1970,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'I and Myself: The Fractured Ego', set in a tavern midnight."
+      },
+      {
+        "id": "sheeshe-de-saahmne",
+        "titleGurmukhi": "ਸ਼ੀਸ਼ੇ ਦੇ ਸਾਹਮਣੇ",
+        "titleRoman": "Sheeshe De Saahmne",
+        "titleEnglish": "Standing Before the Mirror",
+        "book": "Main te Main",
+        "year": 1970,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'Standing Before the Mirror', set in a tavern midnight."
+      },
+      {
+        "id": "chandigarh-di-sadak",
+        "titleGurmukhi": "ਚੰਡੀਗੜ੍ਹ ਦੀ ਸੜਕ",
+        "titleRoman": "Chandigarh Di Sadak",
+        "titleEnglish": "The Asphalt Road of Chandigarh",
+        "book": "Main te Main",
+        "year": 1970,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'The Asphalt Road of Chandigarh', set in a tavern midnight."
+      },
+      {
+        "id": "dooji-maut",
+        "titleGurmukhi": "ਦੂਜੀ ਮੌਤ",
+        "titleRoman": "Dooji Maut",
+        "titleEnglish": "The Second Death: Spiritual Extinction",
+        "book": "Main te Main",
+        "year": 1970,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'The Second Death: Spiritual Extinction', set in a tavern midnight."
+      },
+      {
+        "id": "khat-jo-na-bhejea",
+        "titleGurmukhi": "ਖ਼ਤ ਜੋ ਨਾ ਭੇਜਿਆ",
+        "titleRoman": "Khat Jo Na Bhejea",
+        "titleEnglish": "The Letter Never Posted",
+        "book": "Main te Main",
+        "year": 1970,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'The Letter Never Posted', set in a tavern midnight."
+      },
+      {
+        "id": "kise-mehkhaane-vich",
+        "titleGurmukhi": "ਕਿਸੇ ਮੈਖ਼ਾਨੇ ਵਿੱਚ",
+        "titleRoman": "Kise Mehkhaane Vich",
+        "titleEnglish": "Inside a Smoky Tavern",
+        "book": "Main te Main",
+        "year": 1970,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'Inside a Smoky Tavern', set in a tavern midnight."
+      },
+      {
+        "id": "bheed-vich-kalla",
+        "titleGurmukhi": "ਭੀੜ ਵਿੱਚ ਕੱਲਾ",
+        "titleRoman": "Bheed Vich Kalla",
+        "titleEnglish": "Solitary in the Metropolitan Crowd",
+        "book": "Main te Main",
+        "year": 1970,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of thousands of faceless commuters walking in a blur down a wet concrete boulevard under neon signs."
+      },
+      {
+        "id": "akhbaar-da-tukda",
+        "titleGurmukhi": "ਅਖ਼ਬਾਰ ਦਾ ਟੁਕੜਾ",
+        "titleRoman": "Akhbaar Da Tukda",
+        "titleEnglish": "The Discarded Scrap of Newsprint",
+        "book": "Main te Main",
+        "year": 1970,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a torn newspaper blowing across wet asphalt into an open sewer drain."
+      },
+      {
+        "id": "aarti",
+        "titleGurmukhi": "ਆਰਤੀ (ਮੇਰਾ ਕਤਲ ਹੋਇਆ ਜਿਸ ਚੌਕ ਅੰਦਰ)",
+        "titleRoman": "Aarti (Mera Qatl Hoya Jis Chowk Andar)",
+        "titleEnglish": "Aarti: The Public Square of My Slaughter",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 5,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'Aarti: The Public Square of My Slaughter', set in a cremation dusk."
+      },
+      {
+        "id": "shehar-tere-di-dhupp",
+        "titleGurmukhi": "ਸ਼ਹਿਰ ਤੇਰੇ ਦੀ ਧੁੱਪ",
+        "titleRoman": "Shehar Tere Di Dhupp",
+        "titleEnglish": "The Harsh Sunlight of Your City",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'The Harsh Sunlight of Your City', set in a cremation dusk."
+      },
+      {
+        "id": "lahoo-da-dariya",
+        "titleGurmukhi": "ਲਹੂ ਦਾ ਦਰਿਆ",
+        "titleRoman": "Lahoo Da Dariya",
+        "titleEnglish": "The River of Blood",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'The River of Blood', set in a cremation dusk."
+      },
+      {
+        "id": "kise-shaam-kise-pal",
+        "titleGurmukhi": "ਕਿਸੇ ਸ਼ਾਮ ਕਿਸੇ ਪਲ",
+        "titleRoman": "Kise Shaam Kise Pal",
+        "titleEnglish": "At Some Twilight, In Some Fleeting Instant",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'At Some Twilight, In Some Fleeting Instant', set in a cremation dusk."
+      },
+      {
+        "id": "suneha-diyan-raatan",
+        "titleGurmukhi": "ਸੁਨੇਹਿਆਂ ਦੀਆਂ ਰਾਤਾਂ",
+        "titleRoman": "Suneha Diyan Raatan",
+        "titleEnglish": "Nights of Unanswered Telegrams",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'Nights of Unanswered Telegrams', set in a cremation dusk."
+      },
+      {
+        "id": "mera-pind-murh-aave",
+        "titleGurmukhi": "ਮੇਰਾ ਪਿੰਡ ਮੁੜ ਆਵੇ",
+        "titleRoman": "Mera Pind Murh Aave",
+        "titleEnglish": "May My Lost Village Return",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'May My Lost Village Return', set in a cremation dusk."
+      },
+      {
+        "id": "daru-di-botal",
+        "titleGurmukhi": "ਦਾਰੂ ਦੀ ਬੋਤਲ",
+        "titleRoman": "Daru Di Botal",
+        "titleEnglish": "The Bottle of Liquor: Embalming My Torment",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an empty dark glass bottle catching the reflection of a streetlight through rain-streaked windowpane."
+      },
+      {
+        "id": "khabar-nahin",
+        "titleGurmukhi": "ਖ਼ਬਰ ਨਹੀਂ ਕਿ ਹੋਇਆ",
+        "titleRoman": "Khabar Nahin Ki Hoyea",
+        "titleEnglish": "I Know Not What Transpired",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary figure standing at a crossroads in thick grey fog, looking down at empty hands."
+      },
+      {
+        "id": "chup-di-awaaz",
+        "titleGurmukhi": "ਚੁੱਪ ਦੀ ਆਵਾਜ਼",
+        "titleRoman": "Chup Di Awaaz",
+        "titleEnglish": "The Screaming Voice of Silence",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a face with wide hollow eyes and closed mouth, with concentric soundwaves radiating from the throat."
+      },
+      {
+        "id": "zakhmi-sur",
+        "titleGurmukhi": "ਜ਼ਖ਼ਮੀ ਸੁਰ",
+        "titleRoman": "Zakhmi Sur",
+        "titleEnglish": "The Wounded Musical Note",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a snapped string on a classical sitar resting beside an extinguished clay lamp."
+      },
+      {
+        "id": "kisse-da-ant",
+        "titleGurmukhi": "ਕਿਸੇ ਦਾ ਅੰਤ",
+        "titleRoman": "Kisse Da Ant",
+        "titleEnglish": "Conclusion of the Ballad",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a closing ancient leather-bound manuscript resting upon a stone table with fallen rose petals."
+      },
+      {
+        "id": "be-vatan",
+        "titleGurmukhi": "ਬੇਵਤਨ",
+        "titleRoman": "Be-Vatan",
+        "titleEnglish": "The Stateless Wanderer",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary traveler looking across barbed wire boundary fence into a distant village."
+      },
+      {
+        "id": "ret-te-likhiya",
+        "titleGurmukhi": "ਰੇਤ ਤੇ ਲਿਖਿਆ ਨਾਂ",
+        "titleRoman": "Ret Te Likhiya Naam",
+        "titleEnglish": "Name Scratched into Blowing Sand",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of Punjabi Gurmukhi letters scratched with a twig into river sand as wind blows dry dust across them."
+      },
+      {
+        "id": "bhull-bakhshao",
+        "titleGurmukhi": "ਭੁੱਲ ਬਖ਼ਸ਼ਾਓ",
+        "titleRoman": "Bhull Bakhshao",
+        "titleEnglish": "Forgive My Wayward Trespasses",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of folded hands resting upon knees in the darkness with a bowed head in humble supplication."
+      },
+      {
+        "id": "chiraag-bujh-challeya",
+        "titleGurmukhi": "ਚਿਰਾਗ਼ ਬੁੱਝ ਚੱਲਿਆ",
+        "titleRoman": "Chiraag Bujh Challeya",
+        "titleEnglish": "The Oil Lamp Dies Down",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an ancient bronze oil lamp with thin white smoke rising from a black spent wick."
+      },
+      {
+        "id": "soorma-sukkeya",
+        "titleGurmukhi": "ਸੁਰਮਾ ਸੁੱਕਿਆ",
+        "titleRoman": "Soorma Sukkeya",
+        "titleEnglish": "Dried Kohl in Death",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of eyes closed in death with delicate black lines traced along the pale eyelashes."
+      },
+      {
+        "id": "khamoshi",
+        "titleGurmukhi": "ਖ਼ਾਮੋਸ਼ੀ ਦਾ ਸ਼ੋਰ",
+        "titleRoman": "Khamoshi Da Shor",
+        "titleEnglish": "Tumult of Total Silence",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an empty theatre stage with a single microphone standing in a cone of white spotlight under a vast dark ceiling."
+      },
+      {
+        "id": "geet-adha-reh-gaya",
+        "titleGurmukhi": "ਗੀਤ ਅੱਧਾ ਰਹਿ ਗਿਆ",
+        "titleRoman": "Geet Adha Reh Gaya",
+        "titleEnglish": "The Song Remained Half-Sung",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of an unfinished sheet of Gurmukhi poetry with ink fading mid-line as the pen rests idle."
+      },
+      {
+        "id": "ret-di-chadar",
+        "titleGurmukhi": "ਰੇਤ ਦੀ ਚਾਦਰ",
+        "titleRoman": "Ret Di Chaadar",
+        "titleEnglish": "Shroud of River Sand",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of drifting sand dunes slowly covering a solitary wooden boat hull on a dried river bed."
+      },
+      {
+        "id": "door-desh",
+        "titleGurmukhi": "ਦੂਰ ਦੇਸ਼ ਦਾ ਮੁਸਾਫ਼ਿਰ",
+        "titleRoman": "Door Desh Da Musafir",
+        "titleEnglish": "Pilgrim of the Faraway Realm",
+        "book": "Aarti",
+        "year": 1971,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a cloaked pilgrim with a staff walking along a ridge towards a vast white horizon where earth meets sky."
+      },
+      {
+        "id": "alvida",
+        "titleGurmukhi": "ਅਲਵਿਦਾ (ਆਖ਼ਰੀ ਗੀਤ)",
+        "titleRoman": "Alvida (Aakhri Geet)",
+        "titleEnglish": "Farewell: The Ultimate Departure",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'Farewell: The Ultimate Departure', set in a cremation dusk."
+      },
+      {
+        "id": "chup-di-cheekh",
+        "titleGurmukhi": "ਚੁੱਪ ਦੀ ਚੀਕ",
+        "titleRoman": "Chup Di Cheekh",
+        "titleEnglish": "The Screaming Silence",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'The Screaming Silence', set in a cremation dusk."
+      },
+      {
+        "id": "main-adhoora-geet",
+        "titleGurmukhi": "ਮੈਂ ਅਧੂਰਾ ਗੀਤ ਹਾਂ",
+        "titleRoman": "Main Adhoora Geet Haan",
+        "titleEnglish": "I Am an Unfinished Melody",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'I Am an Unfinished Melody', set in a cremation dusk."
+      },
+      {
+        "id": "qabar-te-deeva",
+        "titleGurmukhi": "ਕਬਰ 'ਤੇ ਦੀਵਾ",
+        "titleRoman": "Qabar Te Deeva",
+        "titleEnglish": "An Earthen Lamp Upon My Tomb",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'An Earthen Lamp Upon My Tomb', set in a cremation dusk."
+      },
+      {
+        "id": "hanjhu-muk-gaye",
+        "titleGurmukhi": "ਹੰਝੂ ਮੁੱਕ ਗਏ",
+        "titleRoman": "Hanjhu Muk Gaye",
+        "titleEnglish": "The Tears Have Run Dry",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'The Tears Have Run Dry', set in a cremation dusk."
+      },
+      {
+        "id": "antim-suneha",
+        "titleGurmukhi": "ਅੰਤਿਮ ਸੁਨੇਹਾ",
+        "titleRoman": "Antim Suneha",
+        "titleEnglish": "The Final Testament to Punjab",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 4,
+        "sketchPrompt": "Charcoal sketch evoking the mood of 'The Final Testament to Punjab', set in a cremation dusk."
+      },
+      {
+        "id": "antam-geet",
+        "titleGurmukhi": "ਅੰਤਮ ਗੀਤ",
+        "titleRoman": "Antam Geet",
+        "titleEnglish": "The Final Song: When the Throat Turns to Ash",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Charcoal sketch of a solitary clay lamp whose oil has dried, smoking faintly under a twilight sky near a silent river."
+      },
+      {
+        "id": "lahu-di-chhiant",
+        "titleGurmukhi": "ਲਹੂ ਦੀ ਛਿੱਟ",
+        "titleRoman": "Lahu Di Chhitt",
+        "titleEnglish": "The Splash of Blood: Staining the Pure Page",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "A single drop of crimson ink soaking into an aged textured parchment paper next to a broken pen nib."
+      },
+      {
+        "id": "zindagi-alvida",
+        "titleGurmukhi": "ਜ਼ਿੰਦਗੀ ਅਲਵਿਦਾ",
+        "titleRoman": "Zindagi Alvida",
+        "titleEnglish": "Farewell to This Mortal Life: Severing the Last Cord",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Fine pencil sketch of autumn leaves detaching from a branch and spiraling downward toward a dark, undisturbed pool of water."
+      },
+      {
+        "id": "chup-da-samundar",
+        "titleGurmukhi": "ਚੁੱਪ ਦਾ ਸਮੁੰਦਰ",
+        "titleRoman": "Chup Da Samundar",
+        "titleEnglish": "The Ocean of Silence: Beyond All Utterance",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Monochrome wash of a completely still expanse of deep water stretching to a horizon where fog meets sky without a single ripple."
+      },
+      {
+        "id": "kabr-da-sirhana",
+        "titleGurmukhi": "ਕਬਰ ਦਾ ਸਿਰਹਾਣਾ",
+        "titleRoman": "Kabr Da Sirhana",
+        "titleEnglish": "The Pillow of the Grave: Resting Upon Cold Earth",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Detailed charcoal rendering of an ancient earthen headstone entwined with wild thorny creepers in an overgrown cemetery."
+      },
+      {
+        "id": "mushaira-mukkeya",
+        "titleGurmukhi": "ਮੁਸ਼ਾਇਰਾ ਮੁੱਕਿਆ",
+        "titleRoman": "Mushaira Mukkeya",
+        "titleEnglish": "The Mushaira Has Concluded: The Lights Turned Down",
+        "book": "Alvida",
+        "year": 1974,
+        "stanzasCount": 3,
+        "sketchPrompt": "Pen and ink drawing of an empty stage with overturned chairs, scattered microphone wires, and discarded marigold flower garlands on the ground."
+      }
+    ]
+  }
+}

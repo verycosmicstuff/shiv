@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BIRHA (ਬਿਰਹਾ) — A Contemplative Cycling Odyssey</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Three.js from CDN for zero-dependency standalone 3D world -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- Google Fonts for cinematic multi-script typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Lora:ital,wght@0,400;0,600;1,400&family=Noto+Sans+Gurmukhi:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: 'Lora', serif;
+      background-color: #0d0c0b;
+      user-select: none;
+    }
+    .font-title { font-family: 'Cinzel', serif; }
+    .font-gurmukhi { font-family: 'Noto Sans Gurmukhi', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    
+    /* Film grain & paper overlay */
+    .film-grain {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.04;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+
+    /* Charcoal canvas blur transition */
+    .dreamscape-blur {
+      backdrop-filter: blur(28px) brightness(1.2);
+      -webkit-backdrop-filter: blur(28px) brightness(1.2);
+    }
+    
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.05); }
+    }
+    .pulse-glow {
+      animation: pulseGlow 4s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body class="text-stone-200">
+
+  <!-- 3D Landscape Canvas -->
+  <div id="canvas-container" class="absolute inset-0 z-0"></div>
+  <div class="film-grain z-10"></div>
+
+  <!-- Ambient Audio Indicator (Simulated Soundscape) -->
+  <div id="audio-indicator" class="absolute top-6 left-6 z-20 flex items-center gap-3 bg-stone-900/80 backdrop-blur-md border border-stone-800 px-4 py-2 rounded-full text-xs font-mono text-stone-400 shadow-xl">
+    <div class="flex items-center gap-1">
+      <span class="w-1.5 h-3 bg-amber-500 rounded-full animate-pulse"></span>
+      <span class="w-1.5 h-4 bg-amber-400 rounded-full animate-pulse delay-75"></span>
+      <span class="w-1.5 h-2 bg-amber-600 rounded-full animate-pulse delay-150"></span>
+    </div>
+    <span id="soundscape-label">Bicycle Freewheel & Morning Wind in Mustard</span>
+  </div>
+
+  <!-- Climate / Time-of-Day Selector (Season Inspired) -->
+  <div class="absolute top-6 right-6 z-20 flex items-center gap-2 bg-stone-900/80 backdrop-blur-md border border-stone-800 p-1.5 rounded-2xl shadow-xl">
+    <button onclick="setClimate('sunrise')" id="btn-sunrise" class="px-3 py-1.5 rounded-xl text-xs font-mono transition-all bg-amber-500/20 text-amber-300 border border-amber-500/40 font-semibold">
+      🌅 Sunrise
+    </button>
+    <button onclick="setClimate('sunset')" id="btn-sunset" class="px-3 py-1.5 rounded-xl text-xs font-mono transition-all text-stone-400 hover:text-stone-200">
+      🌇 Sunset
+    </button>
+    <button onclick="setClimate('snow')" id="btn-snow" class="px-3 py-1.5 rounded-xl text-xs font-mono transition-all text-stone-400 hover:text-stone-200">
+      ❄️ Snowy Night
+    </button>
+    <button onclick="setClimate('monsoon')" id="btn-monsoon" class="px-3 py-1.5 rounded-xl text-xs font-mono transition-all text-stone-400 hover:text-stone-200">
+      🌧️ Monsoon
+    </button>
+  </div>
+
+  <!-- HUD: Navigation, Distance & Bicycle Bell -->
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4 bg-stone-950/85 backdrop-blur-md border border-stone-800/80 px-6 py-3.5 rounded-2xl shadow-2xl">
+    <div class="flex flex-col text-left">
+      <span class="text-[10px] uppercase font-mono tracking-widest text-amber-400/90 font-bold">Wandering Realm</span>
+      <span id="realm-indicator" class="text-sm font-serif font-bold text-stone-100">The Dawn Hills of Batala</span>
+    </div>
+
+    <div class="h-8 w-px bg-stone-800"></div>
+
+    <!-- Interactive Bicycle Bell -->
+    <button onclick="ringBell()" class="flex items-center gap-2 px-3.5 py-1.5 bg-stone-900 hover:bg-amber-500 hover:text-black text-amber-400 border border-stone-700 hover:border-amber-400 rounded-xl text-xs font-mono transition-all active:scale-95 shadow-md">
+      <span>🔔 Ring Bell</span>
+    </button>
+
+    <!-- Speed Indicator / Pedal -->
+    <button onclick="togglePedal()" id="btn-pedal" class="flex items-center gap-2 px-4 py-1.5 bg-amber-500 text-black hover:bg-amber-400 rounded-xl text-xs font-mono font-bold transition-all active:scale-95 shadow-md">
+      <span>🚴 Pedal Glide (Auto)</span>
+    </button>
+
+    <!-- Enter Cabin Trigger (When near refuge) -->
+    <button id="btn-cabin" onclick="enterCabin()" class="hidden items-center gap-2 px-4 py-1.5 bg-emerald-500 text-black hover:bg-emerald-400 rounded-xl text-xs font-mono font-bold transition-all animate-bounce shadow-lg">
+      <span>🏠 Enter Cabin Refuge</span>
+    </button>
+
+    <!-- Open Field Journal -->
+    <button onclick="toggleJournal()" class="flex items-center gap-2 px-3.5 py-1.5 bg-stone-900 hover:bg-stone-800 text-stone-300 border border-stone-700 rounded-xl text-xs font-mono transition-all">
+      <span>📖 Journal (<span id="journal-count">1</span>/211)</span>
+    </button>
+  </div>
+
+  <!-- Ambient Subtitle / Historical Thought Fragment -->
+  <div id="thought-bubble" class="absolute bottom-24 left-1/2 -translate-x-1/2 z-20 max-w-xl text-center px-6 py-2.5 rounded-xl bg-black/40 backdrop-blur-sm border border-stone-800/40 text-stone-300 text-xs italic font-serif transition-opacity duration-700 opacity-90">
+    "I cannot measure land in kanals and marlas when the sky itself has no boundary..."
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL 1: THE COLD CABIN INTERIOR                                          -->
+  <!-- ========================================================================= -->
+  <div id="cabin-modal" class="fixed inset-0 z-30 hidden items-center justify-center p-6 bg-black/85 backdrop-blur-lg">
+    <div class="relative w-full max-w-2xl bg-stone-900 border border-amber-900/50 rounded-2xl shadow-2xl p-8 space-y-6 text-left">
+      <div class="flex items-center justify-between border-b border-stone-800 pb-4">
+        <div class="flex items-center gap-3">
+          <span class="text-2xl">🔥</span>
+          <div>
+            <h3 class="text-lg font-serif font-bold text-amber-100">The Solitary Timber Cabin</h3>
+            <p class="text-xs text-stone-400 font-mono">Cold snowy night outside • Warm hearth embers glowing within</p>
+          </div>
+        </div>
+        <button onclick="exitCabin()" class="text-stone-400 hover:text-stone-100 text-xs font-mono bg-stone-800 px-3 py-1 rounded-lg">
+          Exit to Bicycle ✕
+        </button>
+      </div>
+
+      <p class="text-sm text-stone-300 leading-relaxed font-serif">
+        The blizzard howls against the wooden shutters. In the corner, an oil lamp casts long shadows across an unvarnished desk. Resting beside a clay teacup is a worn, cloth-bound manuscript: <strong class="text-amber-300">ਲੂਣਾ (Loona, 1965)</strong>.
+      </p>
+
+      <div class="p-4 rounded-xl bg-stone-950 border border-stone-800 flex items-center justify-between">
+        <div class="space-y-1">
+          <span class="text-[10px] font-mono uppercase text-amber-400 tracking-wider font-semibold">Manuscript Discovered</span>
+          <h4 class="text-base font-serif font-bold text-stone-100">Loona: Act IV – Soliloquy of Defiance</h4>
+          <p class="text-xs text-stone-400">Awarded the Sahitya Akademi Award at 31 • Subverting 1,000 years of patriarchal myth</p>
+        </div>
+        <button onclick="startCharcoalDreamscape('loona')" class="px-5 py-2.5 bg-amber-500 hover:bg-amber-400 text-black font-bold text-xs rounded-xl font-mono transition-all shadow-lg active:scale-95">
+          Open Book & Trace Sketch →
+        </button>
+      </div>
+
+      <div class="text-[11px] text-stone-500 font-mono flex items-center justify-between pt-2">
+        <span>Historical Note: Youngest National Award winner in Indian history</span>
+        <span>Citation: SAHITYA-1967-LOONA</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL 2: THE WHITE CHARCOAL DREAMSCAPE (Tracing Minigame & Poem Unlock)   -->
+  <!-- ========================================================================= -->
+  <div id="dreamscape-modal" class="fixed inset-0 z-40 hidden flex-col items-center justify-between p-8 bg-stone-100 text-stone-900 dreamscape-blur">
+    <!-- Header -->
+    <div class="w-full max-w-4xl flex items-center justify-between border-b border-stone-300 pb-4">
+      <div>
+        <span class="text-[11px] uppercase font-mono tracking-widest text-stone-500 font-bold">The Dreamscape Canvas</span>
+        <h2 id="dreamscape-title" class="text-2xl font-serif font-bold text-stone-900">Trace the Silhouette of Loona in Chains</h2>
+      </div>
+      <div class="flex items-center gap-3">
+        <span id="trace-progress-label" class="text-xs font-mono text-stone-600">Traced: 0%</span>
+        <button onclick="exitDreamscape()" class="px-3 py-1 bg-stone-200 hover:bg-stone-300 text-stone-800 rounded-lg text-xs font-mono">
+          Close Book ✕
+        </button>
+      </div>
+    </div>
+
+    <!-- Center Drawing Canvas & Revealed Verse -->
+    <div class="relative w-full max-w-4xl flex-1 flex flex-col md:flex-row items-center justify-center gap-8 py-6">
+      <!-- Charcoal Drawing Canvas -->
+      <div class="relative w-80 h-80 sm:w-96 sm:h-96 rounded-2xl bg-white border-2 border-stone-300 shadow-2xl overflow-hidden cursor-crosshair">
+        <canvas id="charcoal-canvas" width="400" height="400" class="w-full h-full"></canvas>
+        <div id="canvas-hint" class="absolute inset-0 flex items-center justify-center pointer-events-none text-stone-400 text-xs font-mono italic">
+          ✏️ Click & Drag to trace the charcoal lines
+        </div>
+      </div>
+
+      <!-- Unlocked Poem Stanza Display -->
+      <div id="dreamscape-poem" class="flex-1 max-w-md p-6 rounded-2xl bg-white/90 border border-stone-200 shadow-xl space-y-4 text-left transition-opacity duration-700 opacity-40">
+        <div class="flex items-center justify-between">
+          <span class="text-[10px] font-mono uppercase bg-amber-100 text-amber-900 px-2 py-0.5 rounded font-bold">Poem Unlocked</span>
+          <span class="text-xs font-mono text-stone-500">1965</span>
+        </div>
+
+        <div class="space-y-2">
+          <h3 class="text-xl font-bold font-gurmukhi text-stone-900">
+            ਪਿਤਾ ਜੇ ਪੁੱਤ ਦੀ ਸੇਜ ਤੇ ਬੈਠੇ, ਜੱਗ ਉਸਨੂੰ ਨਾ ਦੇਂਦਾ ਦੋਸ਼!
+          </h3>
+          <p class="text-xs font-mono text-stone-600 italic">
+            Pita je putt di sej te baithe, jagg usnu na denda daush!
+          </p>
+          <p class="text-xs font-serif text-stone-800 leading-relaxed pt-2 border-t border-stone-200">
+            "If an old father beds his son’s youthful bride, the world finds no fault!<br />
+            Yet if a youth kisses his stepmother’s eyes, earth and heavens shake with wrath!"
+          </p>
+        </div>
+
+        <!-- Historical Insight & Marxist Critique Context -->
+        <div class="p-3 rounded-xl bg-stone-50 border border-stone-200 text-xs space-y-1">
+          <strong class="text-stone-900 block font-serif">Historical Revelation • Marxist Critique:</strong>
+          <p class="text-stone-600 leading-relaxed font-serif">
+            Marxist critic Sant Singh Sekhon condemned Shiv for framing Loona’s rebellion in sexual agony rather than class struggle. Yet working people wept to her lines across Punjab.
+          </p>
+          <span class="text-[10px] font-mono text-stone-500 block pt-1">Citation: SEKHON-1972-PUNJABI-KAVI</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dreamscape Footer -->
+    <div class="w-full max-w-4xl flex items-center justify-between border-t border-stone-300 pt-4 text-xs font-mono text-stone-500">
+      <span>Completed sketches permanently unlock poems into your Field Journal</span>
+      <button id="btn-collect-poem" onclick="collectPoem()" class="hidden px-5 py-2 bg-stone-900 hover:bg-stone-800 text-white rounded-xl font-bold">
+        Add to Journal & Return to Road →
+      </button>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL 3: THE TRAVELER'S FIELD JOURNAL                                     -->
+  <!-- ========================================================================= -->
+  <div id="journal-modal" class="fixed inset-0 z-30 hidden items-center justify-center p-6 bg-black/85 backdrop-blur-lg">
+    <div class="relative w-full max-w-3xl max-h-[85vh] flex flex-col bg-stone-900 border border-stone-800 rounded-2xl shadow-2xl overflow-hidden text-left">
+      <div class="flex items-center justify-between px-6 py-4 border-b border-stone-800 bg-stone-950">
+        <div class="flex items-center gap-2.5">
+          <span class="text-xl">📖</span>
+          <h3 class="text-lg font-serif font-bold text-stone-100">Traveler's Field Journal & Sketches</h3>
+        </div>
+        <button onclick="toggleJournal()" class="text-stone-400 hover:text-stone-100 text-xs font-mono bg-stone-800 px-3 py-1 rounded-lg">
+          Close ✕
+        </button>
+      </div>
+
+      <div id="journal-list" class="flex-1 overflow-y-auto p-6 space-y-4 divide-y divide-stone-800/60">
+        <!-- Collected poems will populate here -->
+        <div class="pt-4 first:pt-0 space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-mono uppercase text-amber-400">Sketch 01 • The Sovereign Falcon</span>
+            <span class="text-xs font-mono text-stone-500">1964</span>
+          </div>
+          <h4 class="text-base font-gurmukhi font-bold text-stone-100">ਮੈਂ ਇੱਕ ਸ਼ਿਕਰਾ ਯਾਰ ਬਣਾਇਆ (Main Ik Shikra Yaar Banaya)</h4>
+          <p class="text-xs text-stone-300 italic font-serif">"I took a falcon as my lover... I fed him the raw, living flesh of my heart."</p>
+          <p class="text-xs text-stone-400 leading-relaxed font-serif">
+            Recorded in the misty dawn hills. The hawk signifies passion that cannot be domesticated by middle-class comfort.
+          </p>
+        </div>
+      </div>
+
+      <div class="px-6 py-3 bg-stone-950 border-t border-stone-800 text-xs text-stone-500 font-mono flex items-center justify-between">
+        <span>Total Catalog: 211 surviving poems mapped</span>
+        <span>Visual Reference: Season: A Letter to the Future</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Three.js Low-Poly Procedural World Script -->
+  <script>
+    let scene, camera, renderer;
+    let bicycle, terrain, sunLight, ambientLight;
+    let distanceTraveled = 0;
+    let isPedaling = true;
+    let activeClimate = 'sunrise';
+    let shadowyFigures = [];
+
+    const climates = {
+      sunrise: {
+        sky: 0xf5d0a9,
+        fog: 0xf4cf9a,
+        terrain: 0x4a6b42,
+        ambient: 0x6e5842,
+        sun: 0xffeedd,
+        label: "Bicycle Freewheel & Morning Wind in Mustard"
+      },
+      sunset: {
+        sky: 0x683b54,
+        fog: 0x5a314b,
+        terrain: 0x3d352b,
+        ambient: 0x472836,
+        sun: 0xff7b54,
+        label: "Crickets at Dusk & Faraway Flute over the Ravi"
+      },
+      snow: {
+        sky: 0x141b2b,
+        fog: 0x182033,
+        terrain: 0x8a9ba8,
+        ambient: 0x222d42,
+        sun: 0x99bbdd,
+        label: "Howling Blizzard Wind & Frosted Pines"
+      },
+      monsoon: {
+        sky: 0x607274,
+        fog: 0x566567,
+        terrain: 0x2d4332,
+        ambient: 0x3e4a4d,
+        sun: 0xbbcccc,
+        label: "Rushing River Chenab & Rain on Handlebars"
+      }
+    };
+
+    function init3D() {
+      const container = document.getElementById('canvas-container');
+      
+      // Scene
+      scene = new THREE.Scene();
+      scene.background = new THREE.Color(climates.sunrise.sky);
+      scene.fog = new THREE.FogExp2(climates.sunrise.fog, 0.018);
+
+      // Camera
+      camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 1000);
+      camera.position.set(0, 3.2, 7.5);
+
+      // Renderer
+      renderer = new THREE.WebGLRenderer({ antialias: true });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.shadowMap.enabled = true;
+      renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+      container.appendChild(renderer.domElement);
+
+      // Lights
+      ambientLight = new THREE.AmbientLight(climates.sunrise.ambient, 1.4);
+      scene.add(ambientLight);
+
+      sunLight = new THREE.DirectionalLight(climates.sunrise.sun, 1.8);
+      sunLight.position.set(20, 40, 20);
+      sunLight.castShadow = true;
+      scene.add(sunLight);
+
+      // Low-poly Rolling Terrain
+      const terrainGeo = new THREE.PlaneGeometry(160, 240, 48, 48);
+      terrainGeo.rotateX(-Math.PI / 2);
+
+      // Add undulating hill noise
+      const pos = terrainGeo.attributes.position;
+      for (let i = 0; i < pos.count; i++) {
+        const x = pos.getX(i);
+        const z = pos.getZ(i);
+        // Sinusoidal rolling knolls
+        const y = Math.sin(x * 0.1) * Math.cos(z * 0.08) * 3.5 + Math.sin(x * 0.04) * 2;
+        pos.setY(i, y);
+      }
+      terrainGeo.computeVertexNormals();
+
+      const terrainMat = new THREE.MeshLambertMaterial({ 
+        color: climates.sunrise.terrain, 
+        flatShading: true 
+      });
+      terrain = new THREE.Mesh(terrainGeo, terrainMat);
+      terrain.receiveShadow = true;
+      scene.add(terrain);
+
+      // The Stylized Vintage Bicycle (Simplified low-poly model)
+      bicycle = new THREE.Group();
+      
+      // Wheels
+      const wheelGeo = new THREE.TorusGeometry(0.7, 0.06, 6, 16);
+      const wheelMat = new THREE.MeshLambertMaterial({ color: 0x1e1e1e });
+      
+      const rearWheel = new THREE.Mesh(wheelGeo, wheelMat);
+      rearWheel.position.set(0, 0.7, -1.2);
+      bicycle.add(rearWheel);
+
+      const frontWheel = new THREE.Mesh(wheelGeo, wheelMat);
+      frontWheel.position.set(0, 0.7, 1.2);
+      bicycle.add(frontWheel);
+
+      // Steel Frame Tube
+      const frameMat = new THREE.MeshLambertMaterial({ color: 0x8a3324 }); // Vintage Indian red
+      const frameGeo = new THREE.CylinderGeometry(0.04, 0.04, 1.8);
+      const topTube = new THREE.Mesh(frameGeo, frameMat);
+      topTube.rotation.x = Math.PI / 3;
+      topTube.position.set(0, 1.1, 0);
+      bicycle.add(topTube);
+
+      // Handlebars
+      const barGeo = new THREE.CylinderGeometry(0.03, 0.03, 1.1);
+      const bar = new THREE.Mesh(barGeo, new THREE.MeshLambertMaterial({ color: 0xd4af37 }));
+      bar.rotation.z = Math.PI / 2;
+      bar.position.set(0, 1.6, 1.0);
+      bicycle.add(bar);
+
+      bicycle.position.set(0, 0.5, 0);
+      scene.add(bicycle);
+
+      // Add Shadowy Humanoid Silhouettes on distant ridges
+      createShadowyFigures();
+
+      // Add a distant timber cabin
+      createWaysideCabin();
+
+      // Resize event
+      window.addEventListener('resize', onWindowResize, false);
+
+      // Animation Loop
+      animate();
+    }
+
+    function createShadowyFigures() {
+      const figureMat = new THREE.MeshBasicMaterial({ color: 0x111111, transparent: true, opacity: 0.85 });
+      
+      // 3 distant silhouettes
+      const positions = [
+        [-14, 4.5, -45], // sitting on left ridge
+        [18, 5.0, -80],  // walking on right knoll
+        [-6, 3.8, -120]  // looking into valley
+      ];
+
+      positions.forEach(p => {
+        const figGroup = new THREE.Group();
+        // Head
+        const head = new THREE.Mesh(new THREE.SphereGeometry(0.35, 6, 6), figureMat);
+        head.position.y = 1.6;
+        figGroup.add(head);
+        // Torso
+        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.35, 1.2, 6), figureMat);
+        body.position.y = 0.8;
+        figGroup.add(body);
+
+        figGroup.position.set(p[0], p[1], p[2]);
+        scene.add(figGroup);
+        shadowyFigures.push(figGroup);
+      });
+    }
+
+    let cabinGroup;
+    function createWaysideCabin() {
+      cabinGroup = new THREE.Group();
+      
+      // Log Cabin Walls
+      const cabinMat = new THREE.MeshLambertMaterial({ color: 0x3d2817 });
+      const walls = new THREE.Mesh(new THREE.BoxGeometry(5, 3.5, 5), cabinMat);
+      walls.position.y = 1.75;
+      cabinGroup.add(walls);
+
+      // Roof
+      const roofMat = new THREE.MeshLambertMaterial({ color: 0x1f140b });
+      const roof = new THREE.Mesh(new THREE.ConeGeometry(4.2, 2, 4), roofMat);
+      roof.position.y = 4.2;
+      roof.rotation.y = Math.PI / 4;
+      cabinGroup.add(roof);
+
+      // Glowing Warm Hearth Window
+      const windowMat = new THREE.MeshBasicMaterial({ color: 0xffaa33 });
+      const windowMesh = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), windowMat);
+      windowMesh.position.set(0, 1.8, 2.52);
+      cabinGroup.add(windowMesh);
+
+      // Glowing pointlight
+      const warmLight = new THREE.PointLight(0xffaa33, 2.5, 15);
+      warmLight.position.set(0, 2, 3);
+      cabinGroup.add(warmLight);
+
+      cabinGroup.position.set(12, 1.5, -60);
+      scene.add(cabinGroup);
+    }
+
+    function setClimate(type) {
+      activeClimate = type;
+      const c = climates[type];
+      
+      // Update UI button highlights
+      ['sunrise', 'sunset', 'snow', 'monsoon'].forEach(k => {
+        const btn = document.getElementById(`btn-${k}`);
+        if (k === type) {
+          btn.className = 'px-3 py-1.5 rounded-xl text-xs font-mono transition-all bg-amber-500/20 text-amber-300 border border-amber-500/40 font-semibold';
+        } else {
+          btn.className = 'px-3 py-1.5 rounded-xl text-xs font-mono transition-all text-stone-400 hover:text-stone-200';
+        }
+      });
+
+      // Update scene lighting
+      scene.background.set(c.sky);
+      scene.fog.color.set(c.fog);
+      terrain.material.color.set(c.terrain);
+      ambientLight.color.set(c.ambient);
+      sunLight.color.set(c.sun);
+
+      document.getElementById('soundscape-label').innerText = c.label;
+    }
+
+    function ringBell() {
+      // Audio chime indicator & visual pulse
+      const bubble = document.getElementById('thought-bubble');
+      bubble.innerText = "🔔 *Ting-ting!* The bell chime echoes across the sleeping mountain ridges...";
+      
+      // Camera gentle bob
+      camera.position.y += 0.2;
+      setTimeout(() => camera.position.y -= 0.2, 180);
+    }
+
+    function togglePedal() {
+      isPedaling = !isPedaling;
+      const btn = document.getElementById('btn-pedal');
+      if (isPedaling) {
+        btn.innerHTML = '<span>🚴 Pedal Glide (Active)</span>';
+        btn.className = 'flex items-center gap-2 px-4 py-1.5 bg-amber-500 text-black hover:bg-amber-400 rounded-xl text-xs font-mono font-bold transition-all';
+      } else {
+        btn.innerHTML = '<span>⏸ Coasting (Idle)</span>';
+        btn.className = 'flex items-center gap-2 px-4 py-1.5 bg-stone-800 text-stone-300 hover:bg-stone-700 rounded-xl text-xs font-mono font-bold transition-all';
+      }
+    }
+
+    function enterCabin() {
+      document.getElementById('cabin-modal').classList.remove('hidden');
+      document.getElementById('cabin-modal').classList.add('flex');
+    }
+
+    function exitCabin() {
+      document.getElementById('cabin-modal').classList.add('hidden');
+      document.getElementById('cabin-modal').classList.remove('flex');
+    }
+
+    function toggleJournal() {
+      const modal = document.getElementById('journal-modal');
+      modal.classList.toggle('hidden');
+      modal.classList.toggle('flex');
+    }
+
+    function onWindowResize() {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    }
+
+    // Main 60fps render loop
+    let clock = new THREE.Clock();
+    function animate() {
+      requestAnimationFrame(animate);
+
+      const delta = clock.getDelta();
+
+      if (isPedaling) {
+        distanceTraveled += delta * 7.5;
+        
+        // Endless scrolling terrain illusion
+        terrain.position.z = (distanceTraveled % 40);
+
+        // Bicycle subtle vibration
+        bicycle.position.y = 0.5 + Math.sin(distanceTraveled * 8) * 0.04;
+        camera.position.y = 3.2 + Math.sin(distanceTraveled * 4) * 0.03;
+
+        // Move distant cabin toward player periodically
+        if (cabinGroup) {
+          cabinGroup.position.z += delta * 7.5;
+          if (cabinGroup.position.z > 20) {
+            cabinGroup.position.z = -140;
+          }
+
+          // If cabin is nearby, show "Enter Cabin Refuge" HUD prompt
+          const distToCabin = Math.abs(cabinGroup.position.z - bicycle.position.z);
+          const cabinBtn = document.getElementById('btn-cabin');
+          if (distToCabin < 18) {
+            cabinBtn.classList.remove('hidden');
+            cabinBtn.classList.add('flex');
+          } else {
+            cabinBtn.classList.add('hidden');
+            cabinBtn.classList.remove('flex');
+          }
+        }
+
+        // Slowly cycle distant silhouettes
+        shadowyFigures.forEach((fig, i) => {
+          fig.position.z += delta * 7.5;
+          if (fig.position.z > 20) {
+            fig.position.z = -120 - (i * 30);
+          }
+        });
+      }
+
+      renderer.render(scene, camera);
+    }
+
+    // =========================================================================
+    // CHARCOAL TRACING CANVAS LOGIC
+    // =========================================================================
+    let charcoalCanvas, ctx, isDrawing = false, tracePercentage = 0;
+
+    function startCharcoalDreamscape(type) {
+      exitCabin();
+      const modal = document.getElementById('dreamscape-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+
+      charcoalCanvas = document.getElementById('charcoal-canvas');
+      ctx = charcoalCanvas.getContext('2d');
+      ctx.clearRect(0, 0, charcoalCanvas.width, charcoalCanvas.height);
+
+      // Draw faint guide outline for user to trace
+      ctx.strokeStyle = 'rgba(200, 200, 200, 0.4)';
+      ctx.lineWidth = 2;
+      ctx.setLineDash([4, 6]);
+      
+      // Draw Loona contour guide
+      ctx.beginPath();
+      ctx.arc(200, 120, 45, 0, Math.PI * 2); // head
+      ctx.moveTo(200, 165);
+      ctx.lineTo(150, 340); // dress left
+      ctx.lineTo(250, 340); // dress right
+      ctx.lineTo(200, 165);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      // Reset progress
+      tracePercentage = 0;
+      updateTraceProgress(0);
+
+      // Event listeners
+      charcoalCanvas.onmousedown = (e) => { isDrawing = true; drawCharcoal(e); };
+      window.onmouseup = () => { isDrawing = false; };
+      charcoalCanvas.onmousemove = drawCharcoal;
+    }
+
+    function drawCharcoal(e) {
+      if (!isDrawing) return;
+      document.getElementById('canvas-hint').style.display = 'none';
+
+      const rect = charcoalCanvas.getBoundingClientRect();
+      const x = (e.clientX - rect.left) * (charcoalCanvas.width / rect.width);
+      const y = (e.clientY - rect.top) * (charcoalCanvas.height / rect.height);
+
+      ctx.fillStyle = '#1c1917'; // Rich dark charcoal
+      ctx.beginPath();
+      ctx.arc(x, y, 6, 0, Math.PI * 2);
+      ctx.fill();
+
+      tracePercentage = Math.min(100, tracePercentage + 1.2);
+      updateTraceProgress(Math.floor(tracePercentage));
+    }
+
+    function updateTraceProgress(pct) {
+      document.getElementById('trace-progress-label').innerText = `Traced: ${pct}%`;
+      const poemBox = document.getElementById('dreamscape-poem');
+      poemBox.style.opacity = Math.max(0.4, pct / 100);
+
+      if (pct >= 80) {
+        document.getElementById('btn-collect-poem').classList.remove('hidden');
+      }
+    }
+
+    function collectPoem() {
+      exitDreamscape();
+      const bubble = document.getElementById('thought-bubble');
+      bubble.innerText = "✨ Unlocked 'Loona: Act IV' into your Field Journal! The bicycle journey continues...";
+      document.getElementById('journal-count').innerText = '2';
+    }
+
+    function exitDreamscape() {
+      document.getElementById('dreamscape-modal').classList.add('hidden');
+      document.getElementById('dreamscape-modal').classList.remove('flex');
+    }
+
+    // Initialize upon load
+    window.onload = init3D;
+  </script>
+</body>
+</html>
