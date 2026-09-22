@@ -21,9 +21,10 @@
 - `season_game/`: Standalone prototype inspired by *Season: A letter to the future* mapping all 211 poems across 5 atmospheric realms (`PARSED_CORPUS_MAPPING.json`)
 
 ## Recent Changes
-- Ingested all 211 canonical poems with full multi-stanza Punjabi texts and English translations.
-- Ingested the complete verbatim 4,701-line *Loona* play across all 8 acts.
-- Initialized git and pushed all 231 files cleanly to `https://github.com/verycosmicstuff/shiv.git` on branch `main`.
+- Ingested all 211 canonical poems and complete verbatim 4,701-line *Loona* play.
+- Pushed entire codebase to `https://github.com/verycosmicstuff/shiv.git`.
+- Configured GitHub Pages base path in `vite.config.ts` and added `.github/workflows/deploy.yml`.
 
 ## Active Objective
-- Repository live on GitHub and local development server running cleanly at `http://localhost:3000`.
+- Automated GitHub Actions deployment to GitHub Pages at `https://verycosmicstuff.github.io/shiv/`.
+
