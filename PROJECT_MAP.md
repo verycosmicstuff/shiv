@@ -4,6 +4,7 @@
 - React 18 + TypeScript + Vite + Tailwind CSS + Lucide Icons
 - Multi-Script Typography (Noto Sans Gurmukhi, Noto Nastaliq Urdu, Cinzel, Lora)
 - Three.js WebGL (in `season_game/` prototype)
+- Remote Repository: `https://github.com/verycosmicstuff/shiv.git` (main)
 
 ## Architecture Map
 - `PROJECT_MAP.md`: Context & architecture tracker (< 300 words)
@@ -20,10 +21,9 @@
 - `season_game/`: Standalone prototype inspired by *Season: A letter to the future* mapping all 211 poems across 5 atmospheric realms (`PARSED_CORPUS_MAPPING.json`)
 
 ## Recent Changes
-- Parsed and ingested the complete verbatim 4,701-line theatrical text of *Loona* across all 8 acts from official Punjabi archives.
-- Generated `books/07_loona_1965/00_loona_complete_unabridged_play.md` (243 KB master edition) and 8 individual act scripts (`unabridged_act_1.md` to `unabridged_act_8.md`).
-- Added interactive Verbatim Script Viewer to `src/components/LoonaDeepDive.tsx`.
-- Maintained clean TypeScript production build (`tsc && vite build` passing with 0 errors).
+- Ingested all 211 canonical poems with full multi-stanza Punjabi texts and English translations.
+- Ingested the complete verbatim 4,701-line *Loona* play across all 8 acts.
+- Initialized git and pushed all 231 files cleanly to `https://github.com/verycosmicstuff/shiv.git` on branch `main`.
 
 ## Active Objective
-- Complete 211-poem corpus and unabridged *Loona* verse-play ready for exploration.
+- Repository live on GitHub and local development server running cleanly at `http://localhost:3000`.
