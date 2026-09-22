@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Flame, BookOpen, ArrowDown, Compass } from 'lucide-react';
+import { BookOpen, ArrowDown, Compass } from 'lucide-react';
 import { CigarettePacketScraps } from './CigarettePacketScraps';
 import { ScrollyDialectic } from './ScrollyDialectic';
 import { LoonaDeepDive } from './LoonaDeepDive';
@@ -105,10 +105,10 @@ export const ScrollyStory: React.FC<ScrollyStoryProps> = ({ onOpenPoemModal }) =
       {/* ========================================================================= */}
       <section id="prologue" className="min-h-[85vh] flex flex-col justify-center relative py-12">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          {/* Vintage Archival Stamp */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border-2 border-dashed border-red-800/80 bg-red-950/20 text-red-400 text-xs font-typewriter uppercase tracking-widest animate-pulse">
-            <Flame className="w-3.5 h-3.5" />
-            Declassified Literary Dossier • 1936–1973
+          {/* Archival Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-600/50 bg-amber-950/30 text-amber-300 text-xs font-typewriter uppercase tracking-widest shadow-sm">
+            <BookOpen className="w-3.5 h-3.5 text-amber-400" />
+            The Complete Literary & Critical Archive • 1936–1973
           </div>
 
           {/* Monumental Gurmukhi Hero Title */}
